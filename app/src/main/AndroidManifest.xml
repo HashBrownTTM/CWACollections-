@@ -11,41 +11,47 @@
         android:icon="@mipmap/ic_cwa_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_cwa_launcher_round"
-        android:supportsRtl="true">
+        android:supportsRtl="true"
+        android:theme="@style/processTheme" >
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".LoginOrRegister"
+            android:exported="false" />
         <activity
             android:name=".userInfo"
-            android:theme="@style/processTheme"/>
+            android:exported="false" />
         <activity
             android:name=".forgotPassword"
-            android:theme="@style/processTheme" />
+            android:exported="false" />
         <activity
             android:name=".collectionEditor"
-            android:theme="@style/processTheme" />
+            android:exported="false"  />
         <activity
             android:name=".memoryGame"
-            android:theme="@style/processTheme" />
+            android:exported="false" />
         <activity
             android:name=".itemEditor"
-            android:theme="@style/processTheme" />
+            android:exported="false" />
         <activity
             android:name=".collectionAdder"
-            android:theme="@style/processTheme" />
+            android:exported="false"  />
         <activity
             android:name=".itemAdder"
-            android:theme="@style/processTheme" />
+            android:exported="false"  />
         <activity
             android:name=".collectionItems"
-            android:theme="@style/processTheme" />
+            android:exported="false" />
         <activity
             android:name=".manageCollections"
-            android:theme="@style/processTheme" />
+            android:exported="false"  />
         <activity
             android:name=".home"
-            android:theme="@style/processTheme" />
+            android:exported="false"  />
         <activity
             android:name=".registration"
-            android:theme="@style/registration" />
-
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/splashScreenTheme">

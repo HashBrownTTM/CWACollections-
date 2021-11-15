@@ -4,7 +4,6 @@ package com.example.cwacollections.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -20,18 +19,14 @@ public final class RowCollectionBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
-  public final ImageButton btnDelete;
-
-  @NonNull
   public final CardView cvCollection;
 
   @NonNull
   public final TextView lblCollection;
 
-  private RowCollectionBinding(@NonNull CardView rootView, @NonNull ImageButton btnDelete,
-      @NonNull CardView cvCollection, @NonNull TextView lblCollection) {
+  private RowCollectionBinding(@NonNull CardView rootView, @NonNull CardView cvCollection,
+      @NonNull TextView lblCollection) {
     this.rootView = rootView;
-    this.btnDelete = btnDelete;
     this.cvCollection = cvCollection;
     this.lblCollection = lblCollection;
   }
@@ -63,12 +58,6 @@ public final class RowCollectionBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnDelete;
-      ImageButton btnDelete = rootView.findViewById(id);
-      if (btnDelete == null) {
-        break missingId;
-      }
-
       CardView cvCollection = (CardView) rootView;
 
       id = R.id.lblCollection;
@@ -77,7 +66,7 @@ public final class RowCollectionBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RowCollectionBinding((CardView) rootView, btnDelete, cvCollection, lblCollection);
+      return new RowCollectionBinding((CardView) rootView, cvCollection, lblCollection);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,418 +1,438 @@
 [
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_settings_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_adder.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_collection_adder.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_add.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_with_name.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\logo_with_name.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_bold.ttf.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\font\\comfortaa_bold.ttf"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_add.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_items.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_collection_items.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_with_name.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\logo_with_name.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_menu_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registration.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_registration.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_info.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_user_info.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_navigation_header.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\navigation_header.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\row_item.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_settings_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cwa_launcher.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cwa_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_create_new_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_logout_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_image.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\add_image.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_editor.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_collection_editor.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_info.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_user_info.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_error_outline_24.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_baseline_error_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_search_24.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_item_editor.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_item_editor.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_light.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\font\\comfortaa_light.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_memory_game.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_memory_game.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_account.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_navigation_header.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\navigation_header.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\menu\\navigation_menu.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_menu_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_memory_game.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_memory_game.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_logout_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_named_logo.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_named_logo.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registration.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_registration.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_collection.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\row_collection.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\row_item.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa.ttf.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\font\\comfortaa.ttf"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_settings_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_down_drop.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_down_drop.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_account.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_home.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_manage_collections.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_manage_collections.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa.ttf.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\font\\comfortaa.ttf"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_action.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\action.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_action.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\action.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\baseline_menu_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cwa_launcher_round.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cwa_launcher_round.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stats_full.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\stats_full.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_item_adder.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_item_adder.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_or_register.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_login_or_register.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cwa_launcher_background.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_cwa_launcher_background.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_image.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\add_image.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_item_editor.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_item_editor.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_create_new_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text_border.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\edit_text_border.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\menu\\navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_items.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_collection_items.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_settings_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_logo.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stats_full.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\stats_full.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_logout_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_settings_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\toolbar.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text_border.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\edit_text_border.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_item_adder.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_item_adder.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_collection.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\row_collection.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_image.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\splash_image.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_adder.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_collection_adder.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_create_new_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_editor.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\layout\\activity_collection_editor.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_2.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\logo_2.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_down_drop.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_down_drop.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_more_vert_24.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cwa_launcher.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cwa_launcher.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_create_new_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stats_progress.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\stats_progress.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_light.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\font\\comfortaa_light.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_menu_24.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\baseline_menu_24.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cwa_launcher_round.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cwa_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_more_vert_24.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert_24.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_menu_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_error_outline_24.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\ic_baseline_error_outline_24.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_logout_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_logout_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_manage_collections.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_manage_collections.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_named_logo.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_named_logo.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stats_progress.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\stats_progress.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_menu_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_menu_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_logo.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_image.xml.flat",
-        "source": "C:\\Users\\19005489\\OneDrive - Varsity College\\Third Year\\OPSC7311 (Open Source Coding)\\POE\\19005489_Tiego Masemola_OPSC7311_FINAL_POE\\19005489_Tiego Masemola_OPSC7311_POE\\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\\CWACollections\\app\\src\\main\\res\\drawable\\splash_image.xml"
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_bold.ttf.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\font\\comfortaa_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nav_style.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable-v24\\nav_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cwa_launcher_background.xml.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_cwa_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_create_new_folder_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_folder_black_24.png"
     }
 ]

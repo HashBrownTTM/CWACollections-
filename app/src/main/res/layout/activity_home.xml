@@ -8,17 +8,17 @@
     android:layout_height="match_parent"
     android:background="@color/cwa_grey"
     android:id="@+id/drawerLayout"
-    android:fitsSystemWindows="true"
-    tools:openDrawer="start">
+    >
+    <!--tools:openDrawer="start"-->
 
     <com.google.android.material.navigation.NavigationView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/nav_view"
-        app:headerLayout="@layout/action"
+        app:headerLayout="@layout/navigation_header"
         app:menu="@menu/navigation_menu"
         android:layout_gravity="start"
-        android:background="@color/cwa_grey">
+        android:background="@drawable/nav_style">
 
     </com.google.android.material.navigation.NavigationView>
 
@@ -26,18 +26,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <include
-                android:id="@+id/toolbar"
-                layout="@layout/toolbar"/>
 
-        </LinearLayout>
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/toolbar"/>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent">
             <EditText
                 android:id="@+id/txtSearch"
                 android:layout_width="match_parent"
@@ -57,16 +53,16 @@
                 android:id="@+id/rvCollections"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
                 android:layout_below="@+id/txtSearch"
+                android:layout_marginTop="5dp"
                 app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/row_collection">
-            </androidx.recyclerview.widget.RecyclerView>
+                tools:listitem="@layout/row_collection"></androidx.recyclerview.widget.RecyclerView>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:visibility="invisible"
                 android:layout_marginTop="200dp"
                 android:id="@+id/llNoCollection">
 

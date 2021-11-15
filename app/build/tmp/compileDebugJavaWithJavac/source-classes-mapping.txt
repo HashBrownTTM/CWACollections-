@@ -18,6 +18,8 @@ com/example/cwacollections/registration.java
  com.example.cwacollections.registration$4
 com/example/cwacollections/Constants.java
  com.example.cwacollections.Constants
+com/example/cwacollections/Login.java
+ com.example.cwacollections.Login
 com/example/cwacollections/databinding/ActionBinding.java
  com.example.cwacollections.databinding.ActionBinding
 com/example/cwacollections/databinding/ActivityUserInfoBinding.java
@@ -53,6 +55,8 @@ com/example/cwacollections/databinding/ActivityCollectionAdderBinding.java
  com.example.cwacollections.databinding.ActivityCollectionAdderBinding
 com/example/cwacollections/databinding/RowItemBinding.java
  com.example.cwacollections.databinding.RowItemBinding
+com/example/cwacollections/databinding/ActivityLoginOrRegisterBinding.java
+ com.example.cwacollections.databinding.ActivityLoginOrRegisterBinding
 com/example/cwacollections/itemEditor.java
  com.example.cwacollections.itemEditor
  com.example.cwacollections.itemEditor$1
@@ -88,6 +92,8 @@ com/example/cwacollections/itemAdder.java
  com.example.cwacollections.itemAdder$7
  com.example.cwacollections.itemAdder$8
  com.example.cwacollections.itemAdder$9
+com/example/cwacollections/databinding/ActivityLoginBinding.java
+ com.example.cwacollections.databinding.ActivityLoginBinding
 com/example/cwacollections/databinding/ActivityItemEditorBinding.java
  com.example.cwacollections.databinding.ActivityItemEditorBinding
 com/example/cwacollections/home.java
@@ -129,9 +135,9 @@ com/example/cwacollections/adapters/AdapterItem.java
 com/example/cwacollections/adapters/AdapterCollection.java
  com.example.cwacollections.adapters.AdapterCollection
  com.example.cwacollections.adapters.AdapterCollection$1
- com.example.cwacollections.adapters.AdapterCollection$1$1
- com.example.cwacollections.adapters.AdapterCollection$1$2
  com.example.cwacollections.adapters.AdapterCollection$2
+ com.example.cwacollections.adapters.AdapterCollection$2$1
+ com.example.cwacollections.adapters.AdapterCollection$2$2
  com.example.cwacollections.adapters.AdapterCollection$3
  com.example.cwacollections.adapters.AdapterCollection$4
  com.example.cwacollections.adapters.AdapterCollection$HolderCollection
@@ -143,6 +149,8 @@ com/example/cwacollections/databinding/ActivityCollectionEditorBinding.java
  com.example.cwacollections.databinding.ActivityCollectionEditorBinding
 com/example/cwacollections/databinding/ActivityHomeBinding.java
  com.example.cwacollections.databinding.ActivityHomeBinding
+com/example/cwacollections/LoginOrRegister.java
+ com.example.cwacollections.LoginOrRegister
 com/example/cwacollections/collectionEditor.java
  com.example.cwacollections.collectionEditor
  com.example.cwacollections.collectionEditor$1

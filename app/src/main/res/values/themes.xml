@@ -38,13 +38,6 @@
         <item name="android:statusBarColor">@color/cwa_blue1</item>
     </style>
 
-    <!-- process theme style -->
-    <style name="mainTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
-        <item name="android:windowBackground">@color/cwa_grey</item>
-        <item name="android:statusBarColor">@color/cwa_blue1</item>
-    </style>
-
-
 </resources>
 
 <!-- References

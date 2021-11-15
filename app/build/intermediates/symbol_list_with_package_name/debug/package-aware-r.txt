@@ -1725,6 +1725,8 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_named_logo
+drawable logo
+drawable logo_2
 drawable logo_with_name
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
@@ -1745,6 +1747,7 @@ drawable mtrl_ic_error
 drawable mtrl_popupmenu_background
 drawable mtrl_popupmenu_background_dark
 drawable mtrl_tabs_default_indicator
+drawable nav_style
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -1869,7 +1872,6 @@ id btnBack
 id btnConfirm
 id btnCreateCollection
 id btnDate
-id btnDelete
 id btnEditCollection
 id btnEditItem
 id btnLogin
@@ -2349,6 +2351,8 @@ layout activity_forgot_password
 layout activity_home
 layout activity_item_adder
 layout activity_item_editor
+layout activity_login
+layout activity_login_or_register
 layout activity_main
 layout activity_manage_collections
 layout activity_memory_game
@@ -3314,7 +3318,6 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
-style mainTheme
 style processTheme
 style registration
 style splashScreenTheme

@@ -25,13 +25,6 @@
             android:text="Category Title"
             android:textColor="@color/black"
             android:textSize="25dp" />
-
-        <ImageButton
-            android:id="@+id/btnDelete"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:src="@android:drawable/ic_menu_delete"
-            android:background="@drawable/rounded_corner"/>
     </LinearLayout>
 
 </androidx.cardview.widget.CardView>

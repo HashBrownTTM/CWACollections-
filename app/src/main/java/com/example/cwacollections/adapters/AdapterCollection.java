@@ -69,32 +69,6 @@ public class AdapterCollection extends RecyclerView.Adapter<AdapterCollection.Ho
         //set label text
         holder.lblCollection.setText(collection);
 
-        //handle click, delete category
-        holder.btnDelete.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                //confirm delete dialog
-                AlertDialog.Builder builder = new AlertDialog.Builder(context);
-                builder.setTitle("Delete")
-                    .setMessage("Are you sure you want to delete " + model.getCollection() + "?")
-                    .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            //confirm deleting
-                            deleteCollection(model, holder);
-                        }
-                    })
-                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            //cancel deleting
-                            dialog.dismiss();
-                        }
-                    })
-                    .show();
-            }
-        });
-
         //handle item click, goto collectionItems, also pass item and collectionId
         holder.cvCollection.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -104,6 +78,31 @@ public class AdapterCollection extends RecyclerView.Adapter<AdapterCollection.Ho
                 intent.putExtra("collectionTitle", collection);
                 intent.putExtra("goal", ""+Goal);
                 context.startActivity(intent);
+            }
+        });
+
+        holder.cvCollection.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {//confirm delete dialog
+                AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                builder.setTitle("Delete")
+                        .setMessage("Are you sure you want to delete " + model.getCollection() + "?")
+                        .setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                //confirm deleting
+                                deleteCollection(model, holder);
+                            }
+                        })
+                        .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                //cancel deleting
+                                dialog.dismiss();
+                            }
+                        })
+                        .show();
+                return true;
             }
         });
 
@@ -156,7 +155,6 @@ public class AdapterCollection extends RecyclerView.Adapter<AdapterCollection.Ho
         CardView cvCollection;
         //ui views of row_collection.xml
         TextView lblCollection;
-        ImageButton btnDelete;
 
         public HolderCollection(@NonNull View itemView){
             super(itemView);
@@ -164,7 +162,6 @@ public class AdapterCollection extends RecyclerView.Adapter<AdapterCollection.Ho
             //initialize ui views
             cvCollection = binding.cvCollection;
             lblCollection = binding.lblCollection;
-            btnDelete = binding.btnDelete;
         }
     }
 }
