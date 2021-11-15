@@ -57,7 +57,7 @@
                     android:id="@+id/lblGoal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="0/0"
+                    android:text=""
                     android:textAlignment="center"
                     android:textColor="@color/black"
                     android:layout_marginLeft="120dp"
@@ -69,15 +69,16 @@
                     tools:layout_editor_absoluteY="37dp"
                     android:layout_marginBottom="15dp"/>
             </LinearLayout>
+
             <ImageButton
                 android:id="@+id/btnStats"
                 android:layout_width="43dp"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/cwa_grey"
                 android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/cwa_grey"
                 android:paddingTop="20sp"
                 android:paddingBottom="20sp"
-                android:layout_marginTop="10dp"
                 android:src="@mipmap/baseline_settings_black_24" />
         </RelativeLayout>
 
