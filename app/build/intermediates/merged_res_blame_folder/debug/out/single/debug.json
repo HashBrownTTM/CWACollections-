@@ -76,12 +76,12 @@
         "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_create_new_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_foreground.png"
-    },
-    {
         "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_logout_black_24.png.flat",
         "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_logout_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_foreground.png"
     },
     {
         "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_image.png.flat",
@@ -124,12 +124,12 @@
         "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_menu_black_24.png.flat",
         "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_menu_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher_round.png.flat",

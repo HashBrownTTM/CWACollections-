@@ -2007,6 +2007,7 @@ id largeLabel
 id layout
 id lblCollection
 id lblCollectionName
+id lblCount
 id lblDate
 id lblDescription
 id lblEmail

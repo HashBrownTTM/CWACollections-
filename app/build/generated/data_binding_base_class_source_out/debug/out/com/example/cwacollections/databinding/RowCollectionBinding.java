@@ -24,11 +24,15 @@ public final class RowCollectionBinding implements ViewBinding {
   @NonNull
   public final TextView lblCollection;
 
+  @NonNull
+  public final TextView lblCount;
+
   private RowCollectionBinding(@NonNull CardView rootView, @NonNull CardView cvCollection,
-      @NonNull TextView lblCollection) {
+      @NonNull TextView lblCollection, @NonNull TextView lblCount) {
     this.rootView = rootView;
     this.cvCollection = cvCollection;
     this.lblCollection = lblCollection;
+    this.lblCount = lblCount;
   }
 
   @Override
@@ -66,7 +70,13 @@ public final class RowCollectionBinding implements ViewBinding {
         break missingId;
       }
 
-      return new RowCollectionBinding((CardView) rootView, cvCollection, lblCollection);
+      id = R.id.lblCount;
+      TextView lblCount = rootView.findViewById(id);
+      if (lblCount == null) {
+        break missingId;
+      }
+
+      return new RowCollectionBinding((CardView) rootView, cvCollection, lblCollection, lblCount);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
