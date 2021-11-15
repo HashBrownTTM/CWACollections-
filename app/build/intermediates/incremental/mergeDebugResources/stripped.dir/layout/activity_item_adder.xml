@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:background="@color/cwa_grey3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="43dp"
+                android:layout_height="60dp"
+                android:backgroundTint="@color/cwa_grey3"
+                app:srcCompat="?android:attr/actionModeCloseDrawable" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toStartOf="@+id/btnAddItem"
+                android:layout_toEndOf="@+id/btnBack"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Add New Item"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/btnAddItem"
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cwa_grey3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="5dp"
+                android:text="Add"
+                android:textSize="11dp"
+                tools:layout_editor_absoluteX="134dp"
+                tools:layout_editor_absoluteY="644dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/cwa_grey">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblHeading"
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/rounded_corner"
+                android:text="Fields marked with an \nasterisk (*) indicate fields which are \nrequired to be completed."
+                android:textAlignment="center"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/lblHeading1"
+                android:layout_below="@id/lblHeading"
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="Select Collection*" />
+
+            <TextView
+                android:id="@+id/spCollections"
+                android:layout_below="@id/lblHeading1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="15dp"
+                android:textColor="@color/black"
+                android:hint="Item Collection"
+                android:background="@drawable/edit_text_border"
+                android:drawableEnd="@drawable/ic_down_drop"
+                android:gravity="center_vertical"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="93dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/lblHeading2"
+                android:layout_below="@id/spCollections"
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="Item Name*" />
+
+            <EditText
+                android:id="@+id/txtItemName"
+                android:layout_below="@id/lblHeading2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/edit_text_border"
+                android:ems="10"
+                android:hint="Enter the items name..."
+                android:inputType="textPersonName"
+                android:text=""
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="197dp" />
+
+            <TextView
+                android:id="@+id/lblHeading3"
+                android:layout_below="@id/txtItemName"
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="Description*" />
+
+            <EditText
+                android:id="@+id/txtItemDescription"
+                android:layout_below="@id/lblHeading3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginRight="45dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/edit_text_border"
+                android:ems="10"
+                android:hint="Enter the item description..."
+                android:paddingBottom="12sp"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                tools:layout_editor_absoluteX="45dp"
+                tools:layout_editor_absoluteY="312dp" />
+
+            <TextView
+                android:id="@+id/lblHeading4"
+                android:layout_below="@id/txtItemDescription"
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="Item Image*" />
+
+            <ImageView
+                android:id="@+id/imgItem"
+                android:layout_width="wrap_content"
+                android:layout_height="200sp"
+                android:layout_below="@+id/lblHeading4"
+                android:layout_centerHorizontal="true"
+                android:background="@color/cwa_grey"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                app:layout_constraintHeight_max="350dp"
+                app:layout_constraintHeight_min="250dp"
+                app:srcCompat="@drawable/add_image" />
+
+
+            <TextView
+                android:id="@+id/lblHeading5"
+                android:layout_below="@id/imgItem"
+                android:fontFamily="@font/comfortaa_bold"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="45dp"
+                android:text="Date Obtained (if known)" />
+
+            <LinearLayout
+                android:layout_below="@id/lblHeading5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/cwa_grey3"
+                    android:onClick="setDate"
+                    android:text="Date"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/dtObtained"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginRight="35dp"
+                    android:layout_marginBottom="70dp"
+                    android:background="@drawable/rounded_corner"
+                    android:ems="10"
+                    android:text="@string/date_selected"
+                    tools:layout_editor_absoluteX="47dp"
+                    tools:layout_editor_absoluteY="553dp" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
+<!-- References
+TutorialsPoint. 2021. How to Go back to previous activity in android.
+[ONLINE] Available at: https://www.tutorialspoint.com/how-to-go-back-to-previous-activity-in-android. [Accessed 02 June 2021].
+
+-->

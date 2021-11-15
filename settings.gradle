@@ -1,0 +1,2 @@
+rootProject.name = "CWACollections"
+include ':app'

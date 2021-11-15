@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.cwacollections"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:5:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:6:5-80
+12-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+13-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:23:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+14-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+15
+16    <application
+16-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:8:5-62:19
+17        android:name="com.example.cwacollections.MyApp"
+17-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:9:9-30
+18        android:allowBackup="true"
+18-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:10:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.5.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\de4504a44ff1c2eebbafc7766d076565\core-1.5.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_cwa_launcher"
+22-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:11:9-47
+23        android:label="@string/app_name"
+23-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:12:9-41
+24        android:roundIcon="@mipmap/ic_cwa_launcher_round"
+24-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:13:9-58
+25        android:supportsRtl="true"
+25-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:14:9-35
+26        android:testOnly="true" >
+27        <activity
+27-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:15:9-17:50
+28            android:name="com.example.cwacollections.userInfo"
+28-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:16:13-37
+29            android:theme="@style/processTheme" />
+29-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:17:13-48
+30        <activity
+30-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:18:9-20:51
+31            android:name="com.example.cwacollections.forgotPassword"
+31-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:19:13-43
+32            android:theme="@style/processTheme" />
+32-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:20:13-48
+33        <activity
+33-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:21:9-23:51
+34            android:name="com.example.cwacollections.collectionEditor"
+34-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:22:13-45
+35            android:theme="@style/processTheme" />
+35-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:23:13-48
+36        <activity
+36-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:24:9-26:51
+37            android:name="com.example.cwacollections.memoryGame"
+37-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:25:13-39
+38            android:theme="@style/processTheme" />
+38-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:26:13-48
+39        <activity
+39-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:27:9-29:51
+40            android:name="com.example.cwacollections.itemEditor"
+40-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:28:13-39
+41            android:theme="@style/processTheme" />
+41-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:29:13-48
+42        <activity
+42-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:30:9-32:51
+43            android:name="com.example.cwacollections.collectionAdder"
+43-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:31:13-44
+44            android:theme="@style/processTheme" />
+44-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:32:13-48
+45        <activity
+45-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:33:9-35:51
+46            android:name="com.example.cwacollections.itemAdder"
+46-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:34:13-38
+47            android:theme="@style/processTheme" />
+47-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:35:13-48
+48        <activity
+48-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:36:9-38:51
+49            android:name="com.example.cwacollections.collectionItems"
+49-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:37:13-44
+50            android:theme="@style/processTheme" />
+50-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:38:13-48
+51        <activity
+51-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:39:9-41:51
+52            android:name="com.example.cwacollections.manageCollections"
+52-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:40:13-46
+53            android:theme="@style/processTheme" />
+53-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:41:13-48
+54        <activity
+54-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:42:9-44:51
+55            android:name="com.example.cwacollections.home"
+55-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:43:13-33
+56            android:theme="@style/processTheme" />
+56-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:44:13-48
+57        <activity
+57-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:45:9-47:51
+58            android:name="com.example.cwacollections.registration"
+58-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:46:13-41
+59            android:theme="@style/registration" />
+59-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:47:13-48
+60        <activity
+60-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:49:9-57:20
+61            android:name="com.example.cwacollections.MainActivity"
+61-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:50:13-41
+62            android:theme="@style/splashScreenTheme" >
+62-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:51:13-53
+63            <intent-filter>
+63-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:52:13-56:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:53:17-69
+64-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:53:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:55:17-77
+66-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:55:27-74
+67            </intent-filter>
+68        </activity>
+69
+70        <meta-data
+70-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:59:9-61:57
+71            android:name="preloaded_fonts"
+71-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:60:13-43
+72            android:resource="@array/preloaded_fonts" />
+72-->C:\Users\19005489\OneDrive - Varsity College\Third Year\OPSC7311 (Open Source Coding)\POE\19005489_Tiego Masemola_OPSC7311_FINAL_POE\19005489_Tiego Masemola_OPSC7311_POE\1.19005489_Tiego Masemola_OPSC7311_FINAL_POE\CWACollections\app\src\main\AndroidManifest.xml:61:13-54
+73
+74        <activity
+74-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+75            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+75-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+76            android:excludeFromRecents="true"
+76-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+77            android:exported="true"
+77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+78            android:launchMode="singleTask"
+78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+80            <intent-filter>
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+81                <action android:name="android.intent.action.VIEW" />
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+82
+83                <category android:name="android.intent.category.DEFAULT" />
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+84                <category android:name="android.intent.category.BROWSABLE" />
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+85
+86                <data
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+87                    android:host="firebase.auth"
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+88                    android:path="/"
+88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+89                    android:scheme="genericidp" />
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+90            </intent-filter>
+91        </activity>
+92        <activity
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+93            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+94            android:excludeFromRecents="true"
+94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+95            android:exported="true"
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+96            android:launchMode="singleTask"
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+98            <intent-filter>
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+99                <action android:name="android.intent.action.VIEW" />
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+100
+101                <category android:name="android.intent.category.DEFAULT" />
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+102                <category android:name="android.intent.category.BROWSABLE" />
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+103
+104                <data
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+105                    android:host="firebase.auth"
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+106                    android:path="/"
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+107                    android:scheme="recaptcha" />
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+108            </intent-filter>
+109        </activity>
+110
+111        <service
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+112            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+113            android:enabled="true"
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+114            android:exported="false" >
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+115            <intent-filter>
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+116                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+119            </intent-filter>
+120        </service>
+121        <service
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+122            android:name="com.google.firebase.components.ComponentDiscoveryService"
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+123            android:directBootAware="true"
+123-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+124            android:exported="false" >
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+125            <meta-data
+125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+126                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-database:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5a604b06f384fce5a51279271efda689\firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+129                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+129-->[com.google.firebase:firebase-database:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5a604b06f384fce5a51279271efda689\firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-database:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5a604b06f384fce5a51279271efda689\firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\7da7c4c2c55b95311fa7d99f1119567e\firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+132                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+132-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\7da7c4c2c55b95311fa7d99f1119567e\firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\7da7c4c2c55b95311fa7d99f1119567e\firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+134        </service>
+135
+136        <provider
+136-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+137            android:name="com.google.firebase.provider.FirebaseInitProvider"
+137-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+138            android:authorities="com.example.cwacollections.firebaseinitprovider"
+138-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+139            android:directBootAware="true"
+139-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+140            android:exported="false"
+140-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+141            android:initOrder="100" />
+141-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+142
+143        <activity
+143-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+144            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+144-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+145            android:exported="false"
+145-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+146            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+146-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+147
+148        <meta-data
+148-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5ee78b76ca16c5cf553e6db656f90584\play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+149            android:name="com.google.android.gms.version"
+149-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5ee78b76ca16c5cf553e6db656f90584\play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+150            android:value="@integer/google_play_services_version" />
+150-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5ee78b76ca16c5cf553e6db656f90584\play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+151    </application>
+152
+153</manifest>

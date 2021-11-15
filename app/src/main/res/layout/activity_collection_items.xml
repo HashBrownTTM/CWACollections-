@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    android:fillViewport="true"
+    android:id="@+id/relativeLayout"
+    android:orientation="vertical"
+    android:background="@color/cwa_grey2">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/cwa_grey">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/btnBack"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cwa_grey"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="?android:attr/actionModeCloseDrawable" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_toStartOf="@+id/btnStats"
+                android:layout_toEndOf="@+id/btnBack">
+
+                <TextView
+                    android:id="@+id/lblCollectionName"
+                    android:fontFamily="@font/comfortaa_bold"
+                    style="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginBottom="5sp"
+                    android:text="Collection"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/lblGoal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0/0"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="120dp"
+                    android:layout_marginRight="120dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:background="@drawable/rounded_corner"
+                    tools:layout_editor_absoluteX="127dp"
+                    tools:layout_editor_absoluteY="37dp"
+                    android:layout_marginBottom="15dp"/>
+            </LinearLayout>
+            <ImageButton
+                android:id="@+id/btnStats"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cwa_grey"
+                android:layout_alignParentEnd="true"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/baseline_settings_black_24" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:hint="Search"
+            android:textColorHint="@color/cwa_grey"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawablePadding="10dp"
+            android:textColor="@color/black"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvItems"
+            android:layout_below="@+id/txtSearch"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/row_item"
+            android:layout_margin="5dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="100dp"
+            android:id="@+id/llNoCollection">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                app:srcCompat="@drawable/ic_baseline_error_outline_24" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/comfortaa_bold"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="@color/black"
+                android:text="No Items have been found.\n\nTo add a new Item, go back to\n the home page, select the\nmenu button or swipe to the right \nfrom the left edge, and select\n'New Item...'"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

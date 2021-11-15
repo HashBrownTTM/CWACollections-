@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cwacollections">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_cwa_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_cwa_launcher_round"
+        android:supportsRtl="true">
+        <activity
+            android:name=".userInfo"
+            android:theme="@style/processTheme"/>
+        <activity
+            android:name=".forgotPassword"
+            android:theme="@style/processTheme" />
+        <activity
+            android:name=".collectionEditor"
+            android:theme="@style/processTheme" />
+        <activity
+            android:name=".memoryGame"
+            android:theme="@style/processTheme" />
+        <activity
+            android:name=".itemEditor"
+            android:theme="@style/processTheme" />
+        <activity
+            android:name=".collectionAdder"
+            android:theme="@style/processTheme" />
+        <activity
+            android:name=".itemAdder"
+            android:theme="@style/processTheme" />
+        <activity
+            android:name=".collectionItems"
+            android:theme="@style/processTheme" />
+        <activity
+            android:name=".manageCollections"
+            android:theme="@style/processTheme" />
+        <activity
+            android:name=".home"
+            android:theme="@style/processTheme" />
+        <activity
+            android:name=".registration"
+            android:theme="@style/registration" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/splashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

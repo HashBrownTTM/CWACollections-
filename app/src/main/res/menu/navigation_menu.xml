@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textColor="#FFFFFF">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_collections"
+            android:icon="@mipmap/baseline_folder_black_24"
+            android:title="All Collections"/>
+
+        <item android:id="@+id/nav_new_collection"
+            android:icon="@mipmap/baseline_create_new_folder_black_24"
+            android:title="New Collection..."/>
+
+        <item android:id="@+id/nav_new_item"
+            android:icon="@mipmap/baseline_note_add_black_24"
+            android:title="     New Item..."/>
+
+        <item android:id="@+id/nav_game"
+            android:icon="@mipmap/baseline_sports_esports_black_24"
+            android:title="Memory Game (extra)"/>
+
+        <item android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="Account"/>
+
+        <item android:id="@+id/nav_logout"
+            android:icon="@mipmap/baseline_logout_black_24"
+            android:title="Log Out"/>
+
+    </group>
+</menu>
+
+<!-- References
+Sikander, T. 2021. Navigation Drawer Material Design in Android - 2020 - Taimoor Sikander, Android studio, Android development.
+[ONLINE] Available at: https://www.taimoorsikander.com/create-a-navigation-drawer-material-design-in-android-studio-tutorial/. [Accessed 02 June 2021].
+
+-->

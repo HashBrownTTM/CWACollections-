@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/cwa_grey2"/>
+    <item android:drawable="@drawable/ic_logo" android:gravity="center"/>
+</layer-list>
+
+<!-- References
+How to make a Splash Screen without extra Activity in Android. Youtube Video.
+[ONLINE] Available at: https://youtu.be/rIHArmoq9f8. [Accessed 02 June 2021].
+-->

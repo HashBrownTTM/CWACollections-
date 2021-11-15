@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="5dp"
+    app:cardBackgroundColor="@color/cwa_grey3"
+    app:cardCornerRadius="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rvImage"
+            android:layout_below="@id/lblTitle">
+
+            <ImageView
+                android:id="@+id/picView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                app:layout_constraintHeight_min="300dp"
+                app:layout_constraintHeight_max="500dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/add_image"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/lblTitle"
+            android:fontFamily="@font/comfortaa_bold"
+            style="@style/TextAppearance.MaterialComponents.Headline6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toStartOf="@+id/btnMore"
+            android:maxLines="3"
+            android:text="Item Name" />
+
+        <TextView
+            android:id="@+id/lblDescription"
+            style="@style/TextAppearance.MaterialComponents.Body2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rvImage"
+            android:layout_marginTop="10dp"
+            android:ellipsize="end"
+            android:fontFamily="@font/comfortaa_bold"
+            android:padding="5dp"
+            android:text="Item Description"
+            android:textAlignment="gravity" />
+
+        <TextView
+            android:id="@+id/lblCollection"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/comfortaa_bold"
+            android:maxLines="1"
+            android:text="Collection" />
+
+        <TextView
+            android:id="@+id/lblDate"
+            style="@style/TextAppearance.MaterialComponents.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lblDescription"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/comfortaa_bold"
+            android:maxLines="1"
+            android:text="dd/MM/yyyy" />
+
+        <ImageButton
+            android:id="@+id/btnMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="5dp"
+            android:src="@drawable/ic_baseline_more_vert_24" />
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
