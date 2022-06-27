@@ -3,7 +3,7 @@ package com.example.cwacollections.models;
 public class ModelCollection {
     //using the same spelling for model variables as in firebase database
 
-    String id, collection, uid;
+    String id, collection, uid, colColour;
     long timestamp;
     int Goal;
 
@@ -12,10 +12,11 @@ public class ModelCollection {
     }
 
     //parametrized constructor
-    public ModelCollection(String id, String collection, String uid, long timestamp, int goal) {
+    public ModelCollection(String id, String collection, String uid, String colColour, long timestamp, int goal) {
         this.id = id;
         this.collection = collection;
         this.uid = uid;
+        this.colColour = colColour;
         this.timestamp = timestamp;
         this.Goal = goal;
     }
@@ -43,6 +44,14 @@ public class ModelCollection {
 
     public void setUid(String uid) {
         this.uid = uid;
+    }
+
+    public String getColColour() {
+        return colColour;
+    }
+
+    public void setColColour(String colColour) {
+        this.colColour = colColour;
     }
 
     public long getTimestamp() {

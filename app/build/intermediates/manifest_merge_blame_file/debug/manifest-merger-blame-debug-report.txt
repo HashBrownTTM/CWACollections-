@@ -2,297 +2,345 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.example.cwacollections"
 4    android:versionCode="1"
-5    android:versionName="1.0" >
+5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="23"
-8-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml
+8-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="30" />
-9-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml
+9-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" />
-11-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:5:5-65
-11-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:5:22-62
-12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-12-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:6:5-80
-12-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:6:22-77
-13    <uses-permission android:name="android.permission.INTERNET" />
-13-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
-13-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:23:22-64
-14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
-14-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
-15
-16    <application
-16-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:8:5-68:19
-17        android:name="com.example.cwacollections.MyApp"
-17-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:9:9-30
-18        android:allowBackup="true"
-18-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:10:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.5.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\de4504a44ff1c2eebbafc7766d076565\core-1.5.0\AndroidManifest.xml:24:18-86
-20        android:debuggable="true"
-21        android:extractNativeLibs="false"
-22        android:icon="@mipmap/ic_cwa_launcher"
-22-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:11:9-47
-23        android:label="@string/app_name"
-23-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:12:9-41
-24        android:roundIcon="@mipmap/ic_cwa_launcher_round"
-24-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:13:9-58
-25        android:supportsRtl="true"
-25-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:14:9-35
-26        android:testOnly="true"
-27        android:theme="@style/processTheme" >
-27-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:15:9-44
-28        <activity
-28-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:16:9-18:40
-29            android:name="com.example.cwacollections.Login"
-29-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:17:13-34
-30            android:exported="false" />
-30-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:18:13-37
-31        <activity
-31-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:19:9-21:40
-32            android:name="com.example.cwacollections.LoginOrRegister"
-32-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:20:13-44
-33            android:exported="false" />
-33-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:21:13-37
-34        <activity
-34-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:22:9-24:40
-35            android:name="com.example.cwacollections.userInfo"
-35-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:23:13-37
-36            android:exported="false" />
-36-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:24:13-37
-37        <activity
-37-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:25:9-27:40
-38            android:name="com.example.cwacollections.forgotPassword"
-38-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:26:13-43
-39            android:exported="false" />
-39-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:27:13-37
-40        <activity
-40-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:28:9-30:41
-41            android:name="com.example.cwacollections.collectionEditor"
-41-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:29:13-45
-42            android:exported="false" />
-42-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:30:13-37
-43        <activity
-43-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:31:9-33:40
-44            android:name="com.example.cwacollections.memoryGame"
-44-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:32:13-39
-45            android:exported="false" />
-45-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:33:13-37
-46        <activity
-46-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:34:9-36:40
-47            android:name="com.example.cwacollections.itemEditor"
-47-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:35:13-39
-48            android:exported="false" />
-48-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:36:13-37
+11-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:6:5-65
+11-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:6:22-62
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Without this folders will be inaccessible in Android-11 and above devices -->
+12-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:7:5-80
+12-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /> <!-- Without this entry storage-permission entry will not be visible under app-info permissions list Android-10 and below -->
+13-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:8:5-82
+13-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:8:22-79
+14    <uses-permission
+14-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:9:5-12:40
+15        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+15-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:10:9-65
+16        android:maxSdkVersion="29" />
+16-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:11:9-35
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:23:5-67
+17-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:23:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:24:5-79
+18-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:24:22-76
+19
+20    <application
+20-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:14:5-88:19
+21        android:name="com.example.cwacollections.MyApp"
+21-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:15:9-30
+22        android:allowBackup="true"
+22-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:16:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.5.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\05ee853c8b0fa5d2fd70a6560141183f\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:icon="@mipmap/ic_cwa_launcher"
+26-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:17:9-47
+27        android:label="@string/app_name"
+27-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:18:9-41
+28        android:requestLegacyExternalStorage="true"
+28-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:19:9-52
+29        android:roundIcon="@mipmap/ic_cwa_launcher_round"
+29-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:20:9-58
+30        android:supportsRtl="true"
+30-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:21:9-35
+31        android:testOnly="true"
+32        android:theme="@style/processTheme" >
+32-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:22:9-44
+33        <activity
+33-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:23:9-25:40
+34            android:name="com.example.cwacollections.AboutUs"
+34-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:24:13-36
+35            android:exported="false" />
+35-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:25:13-37
+36        <activity
+36-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:26:9-28:40
+37            android:name="com.example.cwacollections.ResetPassword"
+37-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:27:13-42
+38            android:exported="false" />
+38-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:28:13-37
+39        <activity
+39-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:29:9-31:40
+40            android:name="com.example.cwacollections.Profile"
+40-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:30:13-36
+41            android:exported="false" />
+41-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:31:13-37
+42        <activity
+42-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:32:9-34:40
+43            android:name="com.example.cwacollections.FullScreenImage"
+43-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:33:13-44
+44            android:exported="false" />
+44-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:34:13-37
+45        <activity
+45-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:35:9-38:49
+46            android:name="com.example.cwacollections.ItemDescription"
+46-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:36:13-44
+47            android:exported="false"
+47-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:37:13-37
+48            android:theme="@style/popupTheme" />
+48-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:38:13-46
 49        <activity
-49-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:37:9-39:41
-50            android:name="com.example.cwacollections.collectionAdder"
-50-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:38:13-44
+49-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:39:9-41:40
+50            android:name="com.example.cwacollections.Login"
+50-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:40:13-34
 51            android:exported="false" />
-51-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:39:13-37
+51-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:41:13-37
 52        <activity
-52-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:40:9-42:41
-53            android:name="com.example.cwacollections.itemAdder"
-53-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:41:13-38
+52-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:42:9-44:40
+53            android:name="com.example.cwacollections.LoginOrRegister"
+53-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:43:13-44
 54            android:exported="false" />
-54-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:42:13-37
+54-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:44:13-37
 55        <activity
-55-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:43:9-45:40
-56            android:name="com.example.cwacollections.collectionItems"
-56-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:44:13-44
+55-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:45:9-47:40
+56            android:name="com.example.cwacollections.userInfo"
+56-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:46:13-37
 57            android:exported="false" />
-57-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:45:13-37
+57-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:47:13-37
 58        <activity
-58-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:46:9-48:41
-59            android:name="com.example.cwacollections.manageCollections"
-59-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:47:13-46
+58-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:48:9-50:40
+59            android:name="com.example.cwacollections.collectionEditor"
+59-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:49:13-45
 60            android:exported="false" />
-60-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:48:13-37
+60-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:50:13-37
 61        <activity
-61-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:49:9-51:41
-62            android:name="com.example.cwacollections.home"
-62-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:50:13-33
+61-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:51:9-53:40
+62            android:name="com.example.cwacollections.memoryGame"
+62-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:52:13-39
 63            android:exported="false" />
-63-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:51:13-37
+63-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:53:13-37
 64        <activity
-64-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:52:9-54:40
-65            android:name="com.example.cwacollections.registration"
-65-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:53:13-41
+64-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:54:9-56:40
+65            android:name="com.example.cwacollections.itemEditor"
+65-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:55:13-39
 66            android:exported="false" />
-66-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:54:13-37
+66-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:56:13-37
 67        <activity
-67-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:55:9-63:20
-68            android:name="com.example.cwacollections.MainActivity"
-68-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:56:13-41
-69            android:theme="@style/splashScreenTheme" >
-69-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:57:13-53
-70            <intent-filter>
-70-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:58:13-62:29
-71                <action android:name="android.intent.action.MAIN" />
-71-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:59:17-69
-71-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:59:25-66
-72
-73                <category android:name="android.intent.category.LAUNCHER" />
-73-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:61:17-77
-73-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:61:27-74
-74            </intent-filter>
-75        </activity>
-76
-77        <meta-data
-77-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:65:9-67:57
-78            android:name="preloaded_fonts"
-78-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:66:13-43
-79            android:resource="@array/preloaded_fonts" />
-79-->C:\Users\19005489\Downloads\CWACollections\CWACollections\app\src\main\AndroidManifest.xml:67:13-54
-80
-81        <activity
-81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
-82            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
-83            android:excludeFromRecents="true"
-83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
-84            android:exported="true"
-84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
-85            android:launchMode="singleTask"
-85-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
-86            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
-87            <intent-filter>
-87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
-88                <action android:name="android.intent.action.VIEW" />
-88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-88-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
-89
-90                <category android:name="android.intent.category.DEFAULT" />
-90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-91                <category android:name="android.intent.category.BROWSABLE" />
-91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
-92
-93                <data
-93-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
-94                    android:host="firebase.auth"
-94-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
-95                    android:path="/"
-95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-96                    android:scheme="genericidp" />
-96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
-97            </intent-filter>
-98        </activity>
+67-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:57:9-59:40
+68            android:name="com.example.cwacollections.collectionAdder"
+68-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:58:13-44
+69            android:exported="false" />
+69-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:59:13-37
+70        <activity
+70-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:60:9-62:40
+71            android:name="com.example.cwacollections.itemAdder"
+71-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:61:13-38
+72            android:exported="false" />
+72-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:62:13-37
+73        <activity
+73-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:63:9-65:40
+74            android:name="com.example.cwacollections.collectionItems"
+74-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:64:13-44
+75            android:exported="false" />
+75-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:65:13-37
+76        <activity
+76-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:66:9-68:40
+77            android:name="com.example.cwacollections.collectionProgress"
+77-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:67:13-47
+78            android:exported="false" />
+78-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:68:13-37
+79        <activity
+79-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:69:9-71:40
+80            android:name="com.example.cwacollections.home"
+80-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:70:13-33
+81            android:exported="false" />
+81-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:71:13-37
+82        <activity
+82-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:72:9-74:40
+83            android:name="com.example.cwacollections.registration"
+83-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:73:13-41
+84            android:exported="false" />
+84-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:74:13-37
+85        <activity
+85-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:75:9-83:20
+86            android:name="com.example.cwacollections.MainActivity"
+86-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:76:13-41
+87            android:theme="@style/splashScreenTheme" >
+87-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:77:13-53
+88            <intent-filter>
+88-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:78:13-82:29
+89                <action android:name="android.intent.action.MAIN" />
+89-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:79:17-69
+89-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:79:25-66
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:81:17-77
+91-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:81:27-74
+92            </intent-filter>
+93        </activity>
+94
+95        <meta-data
+95-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:85:9-87:57
+96            android:name="preloaded_fonts"
+96-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:86:13-43
+97            android:resource="@array/preloaded_fonts" />
+97-->C:\Users\HashBrown_TTM\Documents\Varsity College\Third Year\OPSC7312 (Open Source Coding Inter.)\CWACollections-\app\src\main\AndroidManifest.xml:87:13-54
+98
 99        <activity
-99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
-100            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+100            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
 101            android:excludeFromRecents="true"
-101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
 102            android:exported="true"
-102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
 103            android:launchMode="singleTask"
-103-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+103-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
 104            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
 105            <intent-filter>
-105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
 106                <action android:name="android.intent.action.VIEW" />
-106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
-106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+106-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
 107
 108                <category android:name="android.intent.category.DEFAULT" />
-108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
 109                <category android:name="android.intent.category.BROWSABLE" />
-109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
-109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
 110
 111                <data
-111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+111-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
 112                    android:host="firebase.auth"
-112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+112-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
 113                    android:path="/"
-113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
-114                    android:scheme="recaptcha" />
-114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+113-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+114                    android:scheme="genericidp" />
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
 115            </intent-filter>
 116        </activity>
-117
-118        <service
-118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
-119            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
-119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
-120            android:enabled="true"
-120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
-121            android:exported="false" >
-121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
-122            <intent-filter>
-122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
-123                <action android:name="com.google.firebase.auth.api.gms.service.START" />
-123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
-123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
-124
-125                <category android:name="android.intent.category.DEFAULT" />
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
-125-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
-126            </intent-filter>
-127        </service>
-128        <service
-128-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
-129            android:name="com.google.firebase.components.ComponentDiscoveryService"
-129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
-130            android:directBootAware="true"
-130-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
-131            android:exported="false" >
-131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
-132            <meta-data
-132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
-133                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-133-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
-134                android:value="com.google.firebase.components.ComponentRegistrar" />
-134-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\a0476a2be8d14e3ad542ecca6723be5f\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
-135            <meta-data
-135-->[com.google.firebase:firebase-database:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5a604b06f384fce5a51279271efda689\firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
-136                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-136-->[com.google.firebase:firebase-database:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5a604b06f384fce5a51279271efda689\firebase-database-20.0.0\AndroidManifest.xml:33:17-109
-137                android:value="com.google.firebase.components.ComponentRegistrar" />
-137-->[com.google.firebase:firebase-database:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5a604b06f384fce5a51279271efda689\firebase-database-20.0.0\AndroidManifest.xml:34:17-82
-138            <meta-data
-138-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\7da7c4c2c55b95311fa7d99f1119567e\firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
-139                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-139-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\7da7c4c2c55b95311fa7d99f1119567e\firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
-140                android:value="com.google.firebase.components.ComponentRegistrar" />
-140-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\7da7c4c2c55b95311fa7d99f1119567e\firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
-141        </service>
+117        <activity
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+118            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+119            android:excludeFromRecents="true"
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+120            android:exported="true"
+120-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+121            android:launchMode="singleTask"
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+122-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+123            <intent-filter>
+123-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+124                <action android:name="android.intent.action.VIEW" />
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+124-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+126-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+127                <category android:name="android.intent.category.BROWSABLE" />
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+127-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+128
+129                <data
+129-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+130                    android:host="firebase.auth"
+130-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+131                    android:path="/"
+131-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+132                    android:scheme="recaptcha" />
+132-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+133            </intent-filter>
+134        </activity>
+135
+136        <service
+136-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+137            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+137-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+138            android:enabled="true"
+138-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+139            android:exported="false" >
+139-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+140            <intent-filter>
+140-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+141                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+141-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
 142
-143        <provider
-143-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
-144            android:name="com.google.firebase.provider.FirebaseInitProvider"
-144-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
-145            android:authorities="com.example.cwacollections.firebaseinitprovider"
-145-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
-146            android:directBootAware="true"
-146-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
-147            android:exported="false"
-147-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
-148            android:initOrder="100" />
-148-->[com.google.firebase:firebase-common:20.0.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\ef8b0316f80304d8bf2f413ed9f71732\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
-149
-150        <activity
-150-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
-151            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-151-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
-152            android:exported="false"
-152-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
-153            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-153-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\c0cfd82fc458a9c05f4fac47e9b112d0\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
-154
-155        <meta-data
-155-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5ee78b76ca16c5cf553e6db656f90584\play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
-156            android:name="com.google.android.gms.version"
-156-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5ee78b76ca16c5cf553e6db656f90584\play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
-157            android:value="@integer/google_play_services_version" />
-157-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\19005489\.gradle\caches\transforms-2\files-2.1\5ee78b76ca16c5cf553e6db656f90584\play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
-158    </application>
-159
-160</manifest>
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+143-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+144            </intent-filter>
+145        </service>
+146        <service
+146-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:74:9-80:19
+147            android:name="com.google.firebase.components.ComponentDiscoveryService"
+147-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:75:13-84
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\d390a366692e4d30b0fc0be0672f413e\transformed\firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+150            <meta-data
+150-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+151                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+151-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c706da0eaa90fe8ee16750b1b911c45d\transformed\firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-database:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\732f3dc99c79ac2ab163f86d393c73b6\transformed\firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+154                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+154-->[com.google.firebase:firebase-database:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\732f3dc99c79ac2ab163f86d393c73b6\transformed\firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-database:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\732f3dc99c79ac2ab163f86d393c73b6\transformed\firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\043e7a2e1d506f98c154556d2aa2150f\transformed\firebase-storage-20.0.0\AndroidManifest.xml:33:13-35:85
+157                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+157-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\043e7a2e1d506f98c154556d2aa2150f\transformed\firebase-storage-20.0.0\AndroidManifest.xml:34:17-107
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-storage:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\043e7a2e1d506f98c154556d2aa2150f\transformed\firebase-storage-20.0.0\AndroidManifest.xml:35:17-82
+159        </service>
+160
+161        <provider
+161-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\d390a366692e4d30b0fc0be0672f413e\transformed\firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+162            android:name="com.google.firebase.provider.FirebaseInitProvider"
+162-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\d390a366692e4d30b0fc0be0672f413e\transformed\firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+163            android:authorities="com.example.cwacollections.firebaseinitprovider"
+163-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\d390a366692e4d30b0fc0be0672f413e\transformed\firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+164            android:directBootAware="true"
+164-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\d390a366692e4d30b0fc0be0672f413e\transformed\firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+165            android:exported="false"
+165-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\d390a366692e4d30b0fc0be0672f413e\transformed\firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+166            android:initOrder="100" />
+166-->[com.google.firebase:firebase-common:20.0.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\d390a366692e4d30b0fc0be0672f413e\transformed\firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+167
+168        <activity
+168-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\35525a25a2f65ffcd1d0e5a4471dc809\transformed\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+169            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+169-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\35525a25a2f65ffcd1d0e5a4471dc809\transformed\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+170            android:exported="false"
+170-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\35525a25a2f65ffcd1d0e5a4471dc809\transformed\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+171            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+171-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\35525a25a2f65ffcd1d0e5a4471dc809\transformed\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+172
+173        <meta-data
+173-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\a294f7ea9235a888ed5a3942726d19f4\transformed\play-services-basement-17.1.0\AndroidManifest.xml:23:9-25:69
+174            android:name="com.google.android.gms.version"
+174-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\a294f7ea9235a888ed5a3942726d19f4\transformed\play-services-basement-17.1.0\AndroidManifest.xml:24:13-58
+175            android:value="@integer/google_play_services_version" />
+175-->[com.google.android.gms:play-services-basement:17.1.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\a294f7ea9235a888ed5a3942726d19f4\transformed\play-services-basement-17.1.0\AndroidManifest.xml:25:13-66
+176
+177        <provider
+177-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c11ebb1e19d75c76eb248a8194a5d4c0\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+178            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+178-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c11ebb1e19d75c76eb248a8194a5d4c0\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+179            android:authorities="com.example.cwacollections.lifecycle-process"
+179-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c11ebb1e19d75c76eb248a8194a5d4c0\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+180            android:exported="false"
+180-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c11ebb1e19d75c76eb248a8194a5d4c0\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+181            android:multiprocess="true" />
+181-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\HashBrown_TTM\.gradle\caches\transforms-3\c11ebb1e19d75c76eb248a8194a5d4c0\transformed\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+182    </application>
+183
+184</manifest>

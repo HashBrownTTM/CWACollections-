@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/cwa_grey2">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/cwa_grey4">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_margin="12dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            app:srcCompat="?android:attr/actionModeCloseDrawable"
+            android:contentDescription="TODO" />
+
+        <TextView
+            android:id="@+id/txtCollection"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="46dp"
+            android:layout_toEndOf="@+id/btnBack"
+            android:fontFamily="@font/comfortaa_bold"
+            android:gravity="center"
+            android:lines="2"
+            android:text="Collection Progress"
+            android:textColor="@color/cwa_grey3"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lblStats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/rounded_corner"
+                android:fontFamily="@font/comfortaa_bold"
+                android:paddingVertical="10dp"
+                android:text=""
+                android:textAlignment="center"
+                android:textColor="@color/cwa_grey"
+                android:textSize="14sp" />
+
+            <ProgressBar
+                android:id="@+id/background_progressbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_below="@+id/lblStats"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="20dp"
+                android:indeterminate="false"
+                android:layout_centerHorizontal="true"
+                android:max="100"
+                android:progress="100"
+                android:progressDrawable="@drawable/stats_full"/>
+
+            <ProgressBar
+                android:id="@+id/pbPieChart"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_below="@+id/lblStats"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70dp"
+                android:layout_marginBottom="20dp"
+                android:indeterminate="false"
+                android:max="100"
+                android:progress="75"
+                android:progressDrawable="@drawable/stats_progress" />
+
+            <TextView
+                android:id="@+id/lblGoalDiff"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/pbPieChart"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="-170sp"
+                android:text="0%"
+                android:textAlignment="center"
+                android:textColor="@color/cwa_grey3"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+<!-- References
+Medium. 2018. Android Tutorial for Beginners: Create a Pie Chart With XML | by Ivanna Kacewica | Medium. [
+ONLINE] Available at: https://medium.com/@evanca/android-tutorial-for-beginners-create-a-pie-chart-with-xml-36e67dabe67f.
+[Accessed 14 July 2021].
+
+-->

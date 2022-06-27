@@ -1,25 +1,27 @@
 package com.example.cwacollections;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.ContextCompat;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
-import android.content.Intent;
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.NumberPicker;
+import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
+import com.example.cwacollections.customUI.RelativeRadioGroup;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
@@ -28,14 +30,16 @@ import java.util.HashMap;
 
 public class collectionAdder extends AppCompatActivity implements View.OnClickListener{
     EditText txtCollectionName, numGoal;
-    Button btnCreateCollection;
-    ImageButton btnBack;
+    ImageButton btnBack, btnCreateCollection, btnSelectColour;
+    RelativeRadioGroup rgColors;
+    View selectedColour;
 
     private FirebaseAuth firebaseAuth;
     private ProgressDialog progressDialog;
 
     String goalStr = "", collectionName = "";
-    int goal = 0;
+    String selectedColorHex = "";
+    int goal = 0, selectedColorId = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,17 +49,144 @@ public class collectionAdder extends AppCompatActivity implements View.OnClickLi
         //initialising firebase auth
         firebaseAuth = FirebaseAuth.getInstance();
 
+        txtCollectionName = findViewById(R.id.txtCollectionName);
+        numGoal = findViewById(R.id.numGoal);
+        selectedColour = findViewById(R.id.selectedColour);
+
+        btnCreateCollection = findViewById(R.id.btnCreateCollection);
+        btnBack = findViewById(R.id.btnBack);
+        btnSelectColour = findViewById(R.id.btnSelectColour);
+        btnCreateCollection.setOnClickListener(this);
+        btnBack.setOnClickListener(this);
+        btnSelectColour.setOnClickListener(this);
+
         progressDialog = new ProgressDialog(this);
         progressDialog.setTitle("Please wait");
         progressDialog.setCanceledOnTouchOutside(false);
+    }
 
-        txtCollectionName = findViewById(R.id.txtCollectionName);
-        numGoal = findViewById(R.id.numGoal);
-        btnCreateCollection = findViewById(R.id.btnCreateCollection);
-        btnBack = findViewById(R.id.btnBack);
+    private void colourPickerDialog(){
+        Dialog dialog = new Dialog(this);
 
-        btnCreateCollection.setOnClickListener(this);
-        btnBack.setOnClickListener(this);
+        dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dialog.getWindow().setBackgroundDrawableResource(android.R.color.transparent);
+        dialog.setCanceledOnTouchOutside(true);
+        dialog.setContentView(R.layout.dialog_colour_picker);
+
+        rgColors = dialog.findViewById(R.id.rgColors);
+        Button btnConfirm = dialog.findViewById(R.id.btnConfirm);
+        TextView lblCancel = dialog.findViewById(R.id.lblCancel);
+
+        /*RadioButton rbtn1 = dialog.findViewById(R.id.rbtn1),
+                rbtn2 = dialog.findViewById(R.id.rbtn2),
+                rbtn3 = dialog.findViewById(R.id.rbtn3),
+                rbtn4 = dialog.findViewById(R.id.rbtn4),
+                rbtn5 = dialog.findViewById(R.id.rbtn5),
+                rbtn6 = dialog.findViewById(R.id.rbtn6),
+                rbtn7 = dialog.findViewById(R.id.rbtn7),
+                rbtn8 = dialog.findViewById(R.id.rbtn8),
+                rbtn9 = dialog.findViewById(R.id.rbtn9),
+                rbtn10 = dialog.findViewById(R.id.rbtn10),
+                rbtn11 = dialog.findViewById(R.id.rbtn11),
+                rbtn12 = dialog.findViewById(R.id.rbtn12);*/
+
+        rgColors.setOnCheckedChangeListener(new RelativeRadioGroup.OnCheckedChangeListener() {
+            @SuppressLint("NonConstantResourceId")
+            @Override
+            public void onCheckedChanged(RelativeRadioGroup group, int checkedId) {
+                switch (checkedId){
+                    case R.id.rbtn1:
+                        /*selectedColorHex = String.format("#%06X", (0xFFFFFF & R.color.cwa_picker_blue));*/
+                        selectedColorId = R.color.cwa_picker_blue;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn1.setChecked(true);
+                        break;
+
+                    case R.id.rbtn2:
+                        selectedColorId = R.color.cwa_picker_turquoise;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn2.setChecked(true);
+                        break;
+
+                    case R.id.rbtn3:
+                        selectedColorId = R.color.cwa_picker_green;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn3.setChecked(true);
+                        break;
+
+                    case R.id.rbtn4:
+                        selectedColorId = R.color.cwa_picker_yellow;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn4.setChecked(true);
+                        break;
+
+                    case R.id.rbtn5:
+                        selectedColorId = R.color.cwa_picker_orange;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn5.setChecked(true);
+                        break;
+
+                    case R.id.rbtn6:
+                        selectedColorId = R.color.cwa_picker_red;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn6.setChecked(true);
+                        break;
+
+                    case R.id.rbtn7:
+                        selectedColorId = R.color.cwa_picker_purple;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn7.setChecked(true);
+                        break;
+
+                    case R.id.rbtn8:
+                        selectedColorId = R.color.cwa_picker_grey1;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn8.setChecked(true);
+                        break;
+
+                    case R.id.rbtn9:
+                        selectedColorId = R.color.cwa_picker_green2;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn9.setChecked(true);
+                        break;
+
+                    case R.id.rbtn10:
+                        selectedColorId = R.color.cwa_picker_brown;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn10.setChecked(true);
+                        break;
+
+                    case R.id.rbtn11:
+                        selectedColorId = R.color.cwa_picker_purple2;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn11.setChecked(true);
+                        break;
+
+                    case R.id.rbtn12:
+                        selectedColorId = R.color.cwa_picker_maroon;
+                        selectedColorHex = "#" + Integer.toHexString(ContextCompat.getColor(collectionAdder.this, selectedColorId));
+                        //rbtn12.setChecked(true);
+                        break;
+                }
+            }
+        });
+
+        btnConfirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                selectedColour.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor(selectedColorHex)));
+                dialog.dismiss();
+            }
+        });
+
+        lblCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                dialog.dismiss();
+            }
+        });
+
+        dialog.show();
     }
 
     private void createNewCollection() {
@@ -77,6 +208,7 @@ public class collectionAdder extends AppCompatActivity implements View.OnClickLi
             hashMap.put("collection", collectionName);
             hashMap.put("timestamp", timestamp);
             hashMap.put("Goal", goal);
+            hashMap.put("colColour", selectedColorHex);
             hashMap.put("uid", ""+firebaseAuth.getUid());
 
             //add to firebase database---------Database Root> Collections> collectionId> category info
@@ -91,6 +223,8 @@ public class collectionAdder extends AppCompatActivity implements View.OnClickLi
 
                             txtCollectionName.setText("");
                             numGoal.setText("");
+                            selectedColorHex = "";
+                            selectedColour.setBackgroundTintList(ColorStateList.valueOf(ContextCompat.getColor(collectionAdder.this, R.color.white)));
                         }
                     })
                     .addOnFailureListener(new OnFailureListener() {
@@ -99,23 +233,22 @@ public class collectionAdder extends AppCompatActivity implements View.OnClickLi
                             //category add failed
                             progressDialog.dismiss();
                             Toast.makeText(collectionAdder.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
-
                         }
                     });
         }
     }
 
     //onClick methods
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View v){
-        Intent intent;
         switch (v.getId()){
             case R.id.btnCreateCollection:
                 goalStr = numGoal.getText().toString();
                 collectionName = txtCollectionName.getText().toString();
 
                 //checking if none of the data is empty
-                if(!collectionName.isEmpty() && !goalStr.isEmpty()){
+                if(!collectionName.isEmpty() && !goalStr.isEmpty() && !selectedColorHex.isEmpty()){
                     AlertDialog.Builder builder = new AlertDialog.Builder(collectionAdder.this);
                     builder.setTitle("Create new collection")
                             .setMessage("Add new collection: " + txtCollectionName.getText() + "?")
@@ -139,10 +272,16 @@ public class collectionAdder extends AppCompatActivity implements View.OnClickLi
                     Toast.makeText(collectionAdder.this, "Please complete all the required fields", Toast.LENGTH_SHORT).show();
                 }
                 break;
+
+            case R.id.btnSelectColour:
+                colourPickerDialog();
+                break;
+
             case R.id.btnBack:
                 //goes to the previous activity
                 finish();
                 break;
+
         }
     }
 }

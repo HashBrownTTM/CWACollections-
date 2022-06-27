@@ -1,7 +1,9 @@
 package com.example.cwacollections;
 
 import android.app.Application;
+import android.content.Context;
 import android.text.format.DateFormat;
+import android.widget.Toast;
 
 import java.util.Calendar;
 import java.util.Locale;
@@ -22,6 +24,11 @@ public class MyApp extends Application {
 
         return date;
     }
+
+    public static void downloadImage(Context context, String itemUrl){
+        Toast.makeText(context, "" + itemUrl, Toast.LENGTH_SHORT).show();
+    }
+
 }
 
 /* References

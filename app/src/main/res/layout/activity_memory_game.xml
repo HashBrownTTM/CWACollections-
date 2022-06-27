@@ -7,19 +7,23 @@
     android:orientation="vertical"
     tools:context=".memoryGame"
     android:fillViewport="true"
-    android:background="@color/cwa_grey3">
+    android:background="@color/cwa_grey2">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:background="@color/cwa_grey4">
 
         <ImageButton
             android:id="@+id/btnBack"
-            android:layout_width="43dp"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:backgroundTint="@color/cwa_grey3"
-            app:srcCompat="?android:attr/actionModeCloseDrawable" />
+            android:layout_alignParentStart="true"
+            android:layout_margin="12dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            app:srcCompat="?android:attr/actionModeCloseDrawable"  />
 
         <TextView
             android:id="@+id/textView"
@@ -29,16 +33,14 @@
             android:textAlignment="center"
             android:layout_marginRight="43dp"
             android:padding="10dp"
-            android:text="Number Memory Game"
-            android:textColor="@color/black"
+            android:text="Memory Game"
             android:textSize="24sp" />
 
     </LinearLayout>
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/cwa_grey">
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -65,9 +67,13 @@
             <EditText
                 android:id="@+id/txtNumber"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="38dp"
                 android:layout_marginTop="30dp"
+                android:background="@drawable/editbox_style"
                 android:ems="10"
+                android:paddingStart="15dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/cwa_grey"
                 android:inputType="numberSigned"
                 android:digits="1234567890"
                 android:hint="What was the number?"/>
@@ -78,7 +84,8 @@
                 android:layout_marginTop="40dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/cwa_grey3"
+                android:background="@drawable/button_style"
+                app:backgroundTint="@color/cwa_grey3"
                 android:text="Confirm"/>
 
             <Button
@@ -87,7 +94,8 @@
                 android:layout_marginTop="40dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/cwa_blue2"
+                android:background="@drawable/button_style"
+                app:backgroundTint="@color/cwa_blue2"
                 android:text="Play"/>
         </LinearLayout>
     </ScrollView>

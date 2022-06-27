@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cvDialog"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="15dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp"
+    tools:ignore="ContentDescription"
+    android:layout_marginHorizontal="15dp"
+    app:cardBackgroundColor="@color/cwa_grey4"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/lblQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your account password"
+            android:fontFamily="@font/comfortaa"
+            android:textSize="16sp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/txtAuthPassword"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/lblQuestion"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/editbox_style"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            android:gravity="center_vertical"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/cwa_grey2"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/btnShowPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_below="@id/lblQuestion"
+            android:layout_marginVertical="10dp"
+            android:layout_marginStart="-40dp"
+            android:layout_toEndOf="@+id/txtAuthPassword"
+            android:background="@android:color/transparent"
+            android:padding="5dp"
+            android:src="@drawable/ic_baseline_remove_red_eye_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_below="@+id/txtAuthPassword"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/lblCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="?selectableItemBackground"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:fontFamily="@font/comfortaa_bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_weight="5"/>
+            <Button
+                android:id="@+id/btnConfirm"
+                app:background="@drawable/button_style"
+                android:backgroundTint="@color/cwa_blue2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:text="Confirm"
+                android:fontFamily="@font/comfortaa_bold"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:gravity="center"/>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

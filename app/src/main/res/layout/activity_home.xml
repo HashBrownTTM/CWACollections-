@@ -1,87 +1,449 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<androidx.drawerlayout.widget.DrawerLayout
+<com.discord.panels.OverlappingPanelsLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cwa_grey"
-    android:id="@+id/drawerLayout"
-    >
-    <!--tools:openDrawer="start"-->
+    android:id="@+id/overlapping_panels"
+    tools:ignore="ContentDescription"
+    android:background="@color/black">
 
-    <com.google.android.material.navigation.NavigationView
-        android:layout_width="match_parent"
+    <FrameLayout
+        android:id="@+id/start_panel"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:id="@+id/nav_view"
-        app:headerLayout="@layout/navigation_header"
-        app:menu="@menu/navigation_menu"
         android:layout_gravity="start"
         android:background="@drawable/nav_style">
 
-    </com.google.android.material.navigation.NavigationView>
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/nav_view"
+            app:headerLayout="@layout/navigation_header"
+            app:menu="@menu/navigation_menu"
+            app:itemTextColor="@color/black"
+            app:itemIconTint="@color/black"
+            android:layout_gravity="start"
+            android:scrollbars="none"
+            android:background="@drawable/nav_style">
 
-    <LinearLayout
+        </com.google.android.material.navigation.NavigationView>
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/cwa_grey2"
+        android:id="@+id/center_panel"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <include
-            android:id="@+id/toolbar"
-            layout="@layout/toolbar"/>
+        android:layout_height="match_parent">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <EditText
-                android:id="@+id/txtSearch"
+            <TextView
+                android:id="@+id/lblSettingsHeader"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:layout_marginStart="10dp"
-                android:layout_marginEnd="10dp"
-                android:background="@color/white"
-                android:padding="10dp"
-                android:hint="Search"
-                android:textColorHint="@color/cwa_grey"
-                android:drawableStart="@drawable/ic_baseline_search_24"
-                android:drawablePadding="10dp"
-                android:textColor="@color/black"/>
-            <!-- Display categories -->
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/rvCollections"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/cwa_grey4"
+                android:text="Settings"
+                android:textSize="25sp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:gravity="center"/>
+
+            <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_below="@+id/txtSearch"
-                android:layout_marginTop="5dp"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                tools:listitem="@layout/row_collection"></androidx.recyclerview.widget.RecyclerView>
+                android:layout_below="@+id/lblSettingsHeader">
 
-            <LinearLayout
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lblProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="?selectableItemBackground"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:paddingHorizontal="15dp"
+                        android:paddingVertical="10dp"
+                        android:text="Profile"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        app:drawableEndCompat="@drawable/ic_forward"
+                        android:gravity="center_vertical"/>
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/lblProfile"
+                        android:layout_marginHorizontal="10dp"
+                        android:background="@color/white" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/view1"
+                        android:id="@+id/lblGeneralSettings"
+                        android:layout_marginHorizontal="17dp"
+                        android:text="General"
+                        android:textColor="@color/white"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:gravity="center_vertical"/>
+
+                    <TextView
+                        android:id="@+id/lblDeleteAll"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lblGeneralSettings"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="?selectableItemBackground"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:gravity="center_vertical"
+                        android:paddingHorizontal="10dp"
+                        android:paddingVertical="10dp"
+                        android:text="Delete All Collections"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        app:drawableStartCompat="@drawable/ic_baseline_delete_outline_24" />
+
+                    <View
+                        android:id="@+id/view2"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/lblDeleteAll"
+                        android:layout_marginHorizontal="10dp"
+                        android:background="@color/white" />
+
+                    <TextView
+                        android:id="@+id/lblAboutUs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:background="?selectableItemBackground"
+                        android:layout_below="@+id/view2"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:paddingHorizontal="15dp"
+                        android:paddingVertical="10dp"
+                        android:text="About Us"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        android:gravity="center_vertical"/>
+
+                    <View
+                        android:id="@+id/view3"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/lblAboutUs"
+                        android:layout_marginHorizontal="10dp"
+                        android:background="@color/white" />
+
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>
+
+        <!--<androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBarLayout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:visibility="invisible"
-                android:layout_marginTop="200dp"
-                android:id="@+id/llNoCollection">
+                android:background="@color/cwa_grey4"
+                android:fitsSystemWindows="true">
 
-                <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:srcCompat="@drawable/ic_baseline_error_outline_24" />
-
-                <TextView
+                <com.google.android.material.appbar.CollapsingToolbarLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:fontFamily="@font/comfortaa_bold"
-                    android:textAlignment="center"
-                    android:textSize="20dp"
-                    android:textColor="@color/black"
-                    android:text="No collections have been found.\n\nTo add a new collection, select the\nmenu button or swipe to the right \nfrom the left edge, and select\n'New Colletion...'"/>
-            </LinearLayout>
-        </RelativeLayout>
-    </LinearLayout>
-</androidx.drawerlayout.widget.DrawerLayout>
+                    android:fitsSystemWindows="true"
+                    app:title="Collection"
+                    app:scrimAnimationDuration="400"
+                    app:contentScrim="?attr/colorPrimary"
+                    app:expandedTitleGravity="center"
+                    app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+                    <RelativeLayout
+                        android:id="@+id/toolbarHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="?attr/actionBarSize">
+
+                        <TextView
+                            android:id="@+id/lblHome"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/actionBarSize"
+                            android:fontFamily="@font/comfortaa_bold"
+                            android:gravity="center"
+                            android:text="Home"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/lblCollectionNum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/lblHome"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="0/0"
+                            android:textAlignment="center"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:contentInsetLeft="0dp"
+                        android:contentInsetStart="0dp"
+                        app:contentInsetLeft="0dp"
+                        app:contentInsetStart="0dp"
+                        app:layout_collapseMode="pin"
+                        android:layout_gravity="bottom">
+                        <include
+                            android:id="@+id/toolbar"
+                            layout="@layout/toolbar"/>
+
+                    </androidx.appcompat.widget.Toolbar>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvCollections"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        tools:listitem="@layout/row_collection" />
+
+                    <TextView
+                        android:id="@+id/llNoCollection"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:visibility="invisible"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:text="No collections have\nbeen found."
+                        app:drawableTopCompat="@drawable/ic_baseline_error_outline_24" />
+
+                </RelativeLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnAddCollection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="12dp"
+                android:backgroundTint="@color/cwa_blue2"
+                android:src="@mipmap/baseline_create_new_folder_black_24"
+                app:fabSize="normal"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnGoToTop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:fabCustomSize="50dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_margin="12dp"
+                android:backgroundTint="@color/cwa_blue3"
+                android:src="@drawable/baseline_scroll_top_24"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>-->
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/end_panel"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/right_nav_style"
+        android:layout_gravity="end">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cwa_grey4"
+                android:fitsSystemWindows="true">
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fitsSystemWindows="true"
+                    app:title="Collection"
+                    app:scrimAnimationDuration="400"
+                    app:contentScrim="?attr/colorPrimary"
+                    app:expandedTitleGravity="center"
+                    app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
+
+                    <RelativeLayout
+                        android:id="@+id/toolbarHeading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="?attr/actionBarSize">
+
+                        <TextView
+                            android:id="@+id/lblHome"
+                            android:layout_width="match_parent"
+                            android:layout_height="?attr/actionBarSize"
+                            android:fontFamily="@font/comfortaa_bold"
+                            android:gravity="center"
+                            android:text="Home"
+                            android:textSize="24sp" />
+
+                        <TextView
+                            android:id="@+id/lblCollectionNum"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/lblHome"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:text="0/0"
+                            android:textAlignment="center"
+                            android:textSize="16sp" />
+
+                    </RelativeLayout>
+
+                    <androidx.appcompat.widget.Toolbar
+                        android:layout_width="match_parent"
+                        android:layout_height="?attr/actionBarSize"
+                        android:contentInsetLeft="0dp"
+                        android:contentInsetStart="0dp"
+                        app:contentInsetLeft="0dp"
+                        app:contentInsetStart="0dp"
+                        app:layout_collapseMode="pin"
+                        android:layout_gravity="bottom">
+                        <include
+                            android:id="@+id/toolbar"
+                            layout="@layout/toolbar"/>
+
+                    </androidx.appcompat.widget.Toolbar>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/nestedScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/rvCollections"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        tools:listitem="@layout/row_collection" />
+
+                    <TextView
+                        android:id="@+id/llNoCollection"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:visibility="invisible"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="@color/black"
+                        android:text="No collections have\nbeen found."
+                        app:drawableTopCompat="@drawable/ic_baseline_error_outline_24" />
+
+                </RelativeLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnAddCollection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="12dp"
+                android:backgroundTint="@color/cwa_blue2"
+                android:src="@mipmap/baseline_create_new_folder_black_24"
+                app:fabSize="normal"/>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/btnGoToTop"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                app:fabCustomSize="50dp"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_margin="12dp"
+                android:backgroundTint="@color/cwa_blue3"
+                android:src="@drawable/baseline_scroll_top_24"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <!--<RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/lblSettingsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/cwa_grey4"
+                android:text="Settings"
+                android:textSize="25sp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:gravity="center"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/lblSettingsHeader">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lblProfile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/comfortaa_bold"
+                        android:paddingHorizontal="15dp"
+                        android:paddingVertical="10dp"
+                        android:text="Profile"
+                        android:textColor="@color/white"
+                        android:textSize="19sp"
+                        app:drawableEndCompat="@drawable/ic_forward" />
+
+                    <View
+                        android:id="@+id/view1"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/lblProfile"
+                        android:layout_marginHorizontal="10dp"
+                        android:background="@color/white" />
+
+                </RelativeLayout>
+            </ScrollView>
+        </RelativeLayout>-->
+    </FrameLayout>
+</com.discord.panels.OverlappingPanelsLayout>
 

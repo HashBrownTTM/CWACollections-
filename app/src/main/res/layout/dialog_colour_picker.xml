@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cvDialog"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="15dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/cwa_grey4">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:fontFamily="@font/comfortaa_bold"
+            android:textSize="20sp"
+            android:text="Select a colour"/>
+
+        <com.example.cwacollections.customUI.RelativeRadioGroup
+            android:id="@+id/rgColors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/rbtn1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_blue"
+                android:button="@android:color/transparent"
+                android:foreground="@drawable/radiobutton_selector"/>
+
+            <RadioButton
+                android:id="@+id/rbtn2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_toEndOf="@id/rbtn1"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_turquoise"
+                android:button="@android:color/transparent"
+                android:foreground="@drawable/radiobutton_selector" />
+
+            <RadioButton
+                android:id="@+id/rbtn3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="12dp"
+                android:layout_toEndOf="@id/rbtn2"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_green"
+                android:foreground="@drawable/radiobutton_selector"
+                android:button="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/rbtn4"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="12dp"
+                android:layout_toEndOf="@id/rbtn3"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_yellow"
+                android:foreground="@drawable/radiobutton_selector"
+                android:button="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/rbtn5"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="12dp"
+                android:layout_below="@id/rbtn1"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_orange"
+                android:foreground="@drawable/radiobutton_selector"
+                android:button="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/rbtn6"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="12dp"
+                android:layout_below="@id/rbtn2"
+                android:layout_toEndOf="@id/rbtn5"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_red"
+                android:foreground="@drawable/radiobutton_selector"
+                android:button="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/rbtn7"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="12dp"
+                android:layout_below="@id/rbtn3"
+                android:layout_toEndOf="@id/rbtn6"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_purple"
+                android:foreground="@drawable/radiobutton_selector"
+                android:button="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/rbtn8"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="12dp"
+                android:layout_below="@id/rbtn4"
+                android:layout_toEndOf="@id/rbtn7"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_grey1"
+                android:foreground="@drawable/radiobutton_selector"
+                android:button="@android:color/transparent" />
+
+            <RadioButton
+                android:id="@+id/rbtn9"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/rbtn5"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_green2"
+                android:button="@android:color/transparent"
+                android:foreground="@drawable/radiobutton_selector" />
+
+            <RadioButton
+                android:id="@+id/rbtn10"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/rbtn6"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_toEndOf="@id/rbtn5"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_brown"
+                android:button="@android:color/transparent"
+                android:foreground="@drawable/radiobutton_selector" />
+
+            <RadioButton
+                android:id="@+id/rbtn11"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/rbtn7"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="12dp"
+                android:layout_toEndOf="@id/rbtn6"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_purple2"
+                android:button="@android:color/transparent"
+                android:foreground="@drawable/radiobutton_selector" />
+
+            <RadioButton
+                android:id="@+id/rbtn12"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_margin="12dp"
+                android:layout_below="@id/rbtn8"
+                android:layout_toEndOf="@id/rbtn7"
+                android:background="@drawable/radiobutton_style"
+                android:backgroundTint="@color/cwa_picker_maroon"
+                android:foreground="@drawable/radiobutton_selector"
+                android:button="@android:color/transparent" />
+        </com.example.cwacollections.customUI.RelativeRadioGroup>
+
+        <!--<com.example.cwacollections.customUI.TableRadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading"
+            android:id="@+id/rgColors">
+
+            <TableRow android:gravity="center_horizontal">
+                <RadioButton
+                    android:id="@+id/rbtn1"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="12dp"
+                    android:onClick="colorPicker"
+                    android:background="@drawable/radiobutton_style"
+                    android:backgroundTint="@color/cwa_picker_blue"
+                    android:checked="true"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/rbtn2"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="12dp"
+                    android:onClick="colorPicker"
+                    android:background="@drawable/radiobutton_style"
+                    android:backgroundTint="@color/cwa_picker_turquoise"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/rbtn3"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="12dp"
+                    android:onClick="colorPicker"
+                    android:background="@drawable/radiobutton_style"
+                    android:backgroundTint="@color/cwa_picker_green"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/rbtn4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="12dp"
+                    android:onClick="colorPicker"
+                    android:background="@drawable/radiobutton_style"
+                    android:backgroundTint="@color/cwa_picker_yellow"
+                    android:button="@android:color/transparent" />
+
+            </TableRow>
+
+            <TableRow android:gravity="center_horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbtn5"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="12dp"
+                    android:onClick="colorPicker"
+                    android:background="@drawable/radiobutton_style"
+                    android:backgroundTint="@color/cwa_picker_orange"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/rbtn6"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="12dp"
+                    android:onClick="colorPicker"
+                    android:background="@drawable/radiobutton_style"
+                    android:backgroundTint="@color/cwa_picker_red"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/rbtn7"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_margin="12dp"
+                    android:onClick="colorPicker"
+                    android:background="@drawable/radiobutton_style"
+                    android:backgroundTint="@color/cwa_picker_purple"
+                    android:button="@android:color/transparent" />
+
+                <RadioButton
+                    android:id="@+id/rbtn8"
+                    android:layout_width="45dp"
+                    android:layout_margin="12dp"
+                    android:onClick="colorPicker"
+                    android:background="@drawable/radiobutton_style"
+                    android:backgroundTint="@color/cwa_picker_grey2"
+                    android:button="@android:color/transparent" />
+            </TableRow>
+        </com.example.cwacollections.customUI.TableRadioGroup>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_below="@+id/rgColors"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/lblCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:fontFamily="@font/comfortaa_bold"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_weight="5"/>
+            <Button
+                android:id="@+id/btnConfirm"
+                app:background="@drawable/button_style"
+                android:backgroundTint="@color/cwa_blue3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:text="Ok"
+                android:fontFamily="@font/comfortaa_bold"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:textAllCaps="false"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

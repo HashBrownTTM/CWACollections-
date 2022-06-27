@@ -4,14 +4,14 @@ package com.example.cwacollections.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -19,13 +19,16 @@ import java.lang.String;
 
 public final class ActivityCollectionAdderBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final ImageButton btnBack;
 
   @NonNull
-  public final Button btnCreateCollection;
+  public final ImageButton btnCreateCollection;
+
+  @NonNull
+  public final ImageButton btnSelectColour;
 
   @NonNull
   public final TextView lblHeading;
@@ -37,7 +40,16 @@ public final class ActivityCollectionAdderBinding implements ViewBinding {
   public final TextView lblHeading2;
 
   @NonNull
+  public final TextView lblHeading3;
+
+  @NonNull
   public final EditText numGoal;
+
+  @NonNull
+  public final RelativeLayout rlCAHeader;
+
+  @NonNull
+  public final View selectedColour;
 
   @NonNull
   public final TextView textView;
@@ -45,24 +57,30 @@ public final class ActivityCollectionAdderBinding implements ViewBinding {
   @NonNull
   public final EditText txtCollectionName;
 
-  private ActivityCollectionAdderBinding(@NonNull LinearLayout rootView,
-      @NonNull ImageButton btnBack, @NonNull Button btnCreateCollection,
-      @NonNull TextView lblHeading, @NonNull TextView lblHeading1, @NonNull TextView lblHeading2,
-      @NonNull EditText numGoal, @NonNull TextView textView, @NonNull EditText txtCollectionName) {
+  private ActivityCollectionAdderBinding(@NonNull RelativeLayout rootView,
+      @NonNull ImageButton btnBack, @NonNull ImageButton btnCreateCollection,
+      @NonNull ImageButton btnSelectColour, @NonNull TextView lblHeading,
+      @NonNull TextView lblHeading1, @NonNull TextView lblHeading2, @NonNull TextView lblHeading3,
+      @NonNull EditText numGoal, @NonNull RelativeLayout rlCAHeader, @NonNull View selectedColour,
+      @NonNull TextView textView, @NonNull EditText txtCollectionName) {
     this.rootView = rootView;
     this.btnBack = btnBack;
     this.btnCreateCollection = btnCreateCollection;
+    this.btnSelectColour = btnSelectColour;
     this.lblHeading = lblHeading;
     this.lblHeading1 = lblHeading1;
     this.lblHeading2 = lblHeading2;
+    this.lblHeading3 = lblHeading3;
     this.numGoal = numGoal;
+    this.rlCAHeader = rlCAHeader;
+    this.selectedColour = selectedColour;
     this.textView = textView;
     this.txtCollectionName = txtCollectionName;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -88,56 +106,80 @@ public final class ActivityCollectionAdderBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnBack;
-      ImageButton btnBack = rootView.findViewById(id);
+      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
         break missingId;
       }
 
       id = R.id.btnCreateCollection;
-      Button btnCreateCollection = rootView.findViewById(id);
+      ImageButton btnCreateCollection = ViewBindings.findChildViewById(rootView, id);
       if (btnCreateCollection == null) {
         break missingId;
       }
 
+      id = R.id.btnSelectColour;
+      ImageButton btnSelectColour = ViewBindings.findChildViewById(rootView, id);
+      if (btnSelectColour == null) {
+        break missingId;
+      }
+
       id = R.id.lblHeading;
-      TextView lblHeading = rootView.findViewById(id);
+      TextView lblHeading = ViewBindings.findChildViewById(rootView, id);
       if (lblHeading == null) {
         break missingId;
       }
 
       id = R.id.lblHeading1;
-      TextView lblHeading1 = rootView.findViewById(id);
+      TextView lblHeading1 = ViewBindings.findChildViewById(rootView, id);
       if (lblHeading1 == null) {
         break missingId;
       }
 
       id = R.id.lblHeading2;
-      TextView lblHeading2 = rootView.findViewById(id);
+      TextView lblHeading2 = ViewBindings.findChildViewById(rootView, id);
       if (lblHeading2 == null) {
         break missingId;
       }
 
+      id = R.id.lblHeading3;
+      TextView lblHeading3 = ViewBindings.findChildViewById(rootView, id);
+      if (lblHeading3 == null) {
+        break missingId;
+      }
+
       id = R.id.numGoal;
-      EditText numGoal = rootView.findViewById(id);
+      EditText numGoal = ViewBindings.findChildViewById(rootView, id);
       if (numGoal == null) {
         break missingId;
       }
 
+      id = R.id.rlCAHeader;
+      RelativeLayout rlCAHeader = ViewBindings.findChildViewById(rootView, id);
+      if (rlCAHeader == null) {
+        break missingId;
+      }
+
+      id = R.id.selectedColour;
+      View selectedColour = ViewBindings.findChildViewById(rootView, id);
+      if (selectedColour == null) {
+        break missingId;
+      }
+
       id = R.id.textView;
-      TextView textView = rootView.findViewById(id);
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }
 
       id = R.id.txtCollectionName;
-      EditText txtCollectionName = rootView.findViewById(id);
+      EditText txtCollectionName = ViewBindings.findChildViewById(rootView, id);
       if (txtCollectionName == null) {
         break missingId;
       }
 
-      return new ActivityCollectionAdderBinding((LinearLayout) rootView, btnBack,
-          btnCreateCollection, lblHeading, lblHeading1, lblHeading2, numGoal, textView,
-          txtCollectionName);
+      return new ActivityCollectionAdderBinding((RelativeLayout) rootView, btnBack,
+          btnCreateCollection, btnSelectColour, lblHeading, lblHeading1, lblHeading2, lblHeading3,
+          numGoal, rlCAHeader, selectedColour, textView, txtCollectionName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

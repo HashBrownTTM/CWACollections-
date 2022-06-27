@@ -4,32 +4,31 @@ package com.example.cwacollections.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.ImageButton;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
+import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
 
 public final class ActivityCollectionItemsBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final CoordinatorLayout rootView;
 
   @NonNull
-  public final ImageButton btnBack;
+  public final AppBarLayout appBarLayout;
 
   @NonNull
-  public final ImageButton btnStats;
-
-  @NonNull
-  public final ImageView imageView2;
+  public final FloatingActionButton btnAddItem;
 
   @NonNull
   public final TextView lblCollectionName;
@@ -38,41 +37,45 @@ public final class ActivityCollectionItemsBinding implements ViewBinding {
   public final TextView lblGoal;
 
   @NonNull
-  public final LinearLayout llNoCollection;
+  public final TextView llNoCollection;
 
   @NonNull
-  public final LinearLayout relativeLayout;
+  public final NestedScrollView nestedScrollView;
+
+  @NonNull
+  public final CoordinatorLayout relativeLayout;
 
   @NonNull
   public final RecyclerView rvItems;
 
   @NonNull
-  public final LinearLayout toolbar;
+  public final ToolbarCollectionItemsBinding toolbar;
 
   @NonNull
-  public final EditText txtSearch;
+  public final RelativeLayout toolbarHeading;
 
-  private ActivityCollectionItemsBinding(@NonNull LinearLayout rootView,
-      @NonNull ImageButton btnBack, @NonNull ImageButton btnStats, @NonNull ImageView imageView2,
+  private ActivityCollectionItemsBinding(@NonNull CoordinatorLayout rootView,
+      @NonNull AppBarLayout appBarLayout, @NonNull FloatingActionButton btnAddItem,
       @NonNull TextView lblCollectionName, @NonNull TextView lblGoal,
-      @NonNull LinearLayout llNoCollection, @NonNull LinearLayout relativeLayout,
-      @NonNull RecyclerView rvItems, @NonNull LinearLayout toolbar, @NonNull EditText txtSearch) {
+      @NonNull TextView llNoCollection, @NonNull NestedScrollView nestedScrollView,
+      @NonNull CoordinatorLayout relativeLayout, @NonNull RecyclerView rvItems,
+      @NonNull ToolbarCollectionItemsBinding toolbar, @NonNull RelativeLayout toolbarHeading) {
     this.rootView = rootView;
-    this.btnBack = btnBack;
-    this.btnStats = btnStats;
-    this.imageView2 = imageView2;
+    this.appBarLayout = appBarLayout;
+    this.btnAddItem = btnAddItem;
     this.lblCollectionName = lblCollectionName;
     this.lblGoal = lblGoal;
     this.llNoCollection = llNoCollection;
+    this.nestedScrollView = nestedScrollView;
     this.relativeLayout = relativeLayout;
     this.rvItems = rvItems;
     this.toolbar = toolbar;
-    this.txtSearch = txtSearch;
+    this.toolbarHeading = toolbarHeading;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public CoordinatorLayout getRoot() {
     return rootView;
   }
 
@@ -97,65 +100,66 @@ public final class ActivityCollectionItemsBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnBack;
-      ImageButton btnBack = rootView.findViewById(id);
-      if (btnBack == null) {
+      id = R.id.appBarLayout;
+      AppBarLayout appBarLayout = ViewBindings.findChildViewById(rootView, id);
+      if (appBarLayout == null) {
         break missingId;
       }
 
-      id = R.id.btnStats;
-      ImageButton btnStats = rootView.findViewById(id);
-      if (btnStats == null) {
-        break missingId;
-      }
-
-      id = R.id.imageView2;
-      ImageView imageView2 = rootView.findViewById(id);
-      if (imageView2 == null) {
+      id = R.id.btnAddItem;
+      FloatingActionButton btnAddItem = ViewBindings.findChildViewById(rootView, id);
+      if (btnAddItem == null) {
         break missingId;
       }
 
       id = R.id.lblCollectionName;
-      TextView lblCollectionName = rootView.findViewById(id);
+      TextView lblCollectionName = ViewBindings.findChildViewById(rootView, id);
       if (lblCollectionName == null) {
         break missingId;
       }
 
       id = R.id.lblGoal;
-      TextView lblGoal = rootView.findViewById(id);
+      TextView lblGoal = ViewBindings.findChildViewById(rootView, id);
       if (lblGoal == null) {
         break missingId;
       }
 
       id = R.id.llNoCollection;
-      LinearLayout llNoCollection = rootView.findViewById(id);
+      TextView llNoCollection = ViewBindings.findChildViewById(rootView, id);
       if (llNoCollection == null) {
         break missingId;
       }
 
-      LinearLayout relativeLayout = (LinearLayout) rootView;
+      id = R.id.nestedScrollView;
+      NestedScrollView nestedScrollView = ViewBindings.findChildViewById(rootView, id);
+      if (nestedScrollView == null) {
+        break missingId;
+      }
+
+      CoordinatorLayout relativeLayout = (CoordinatorLayout) rootView;
 
       id = R.id.rvItems;
-      RecyclerView rvItems = rootView.findViewById(id);
+      RecyclerView rvItems = ViewBindings.findChildViewById(rootView, id);
       if (rvItems == null) {
         break missingId;
       }
 
       id = R.id.toolbar;
-      LinearLayout toolbar = rootView.findViewById(id);
+      View toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
         break missingId;
       }
+      ToolbarCollectionItemsBinding binding_toolbar = ToolbarCollectionItemsBinding.bind(toolbar);
 
-      id = R.id.txtSearch;
-      EditText txtSearch = rootView.findViewById(id);
-      if (txtSearch == null) {
+      id = R.id.toolbarHeading;
+      RelativeLayout toolbarHeading = ViewBindings.findChildViewById(rootView, id);
+      if (toolbarHeading == null) {
         break missingId;
       }
 
-      return new ActivityCollectionItemsBinding((LinearLayout) rootView, btnBack, btnStats,
-          imageView2, lblCollectionName, lblGoal, llNoCollection, relativeLayout, rvItems, toolbar,
-          txtSearch);
+      return new ActivityCollectionItemsBinding((CoordinatorLayout) rootView, appBarLayout,
+          btnAddItem, lblCollectionName, lblGoal, llNoCollection, nestedScrollView, relativeLayout,
+          rvItems, binding_toolbar, toolbarHeading);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

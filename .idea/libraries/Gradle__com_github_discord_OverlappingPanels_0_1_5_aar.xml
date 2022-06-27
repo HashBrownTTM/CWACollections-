@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.discord:OverlappingPanels:0.1.5@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/619e489dcc5b1b925ca55af56fd9101f/transformed/OverlappingPanels-0.1.5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/619e489dcc5b1b925ca55af56fd9101f/transformed/OverlappingPanels-0.1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/619e489dcc5b1b925ca55af56fd9101f/transformed/OverlappingPanels-0.1.5/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.discord/OverlappingPanels/0.1.5/c127c2845ca86ef4fa48cf0e368146bd9ab57c74/OverlappingPanels-0.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

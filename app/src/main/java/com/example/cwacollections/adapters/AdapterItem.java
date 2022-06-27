@@ -17,9 +17,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.cwacollections.ItemDescription;
+import com.example.cwacollections.collectionItems;
 import com.example.cwacollections.filters.FilterItems;
 import com.example.cwacollections.databinding.RowItemBinding;
 import com.example.cwacollections.home;
@@ -54,8 +57,6 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.HolderItem> im
     //progress dialog
     private ProgressDialog progressDialog;
 
-    String title = "", description = "", dateObtained = "";
-
     //constructor
     public AdapterItem(Context context, ArrayList<ModelItem> itemArrayList) {
         this.context = context;
@@ -82,11 +83,16 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.HolderItem> im
     public void onBindViewHolder(@NonNull AdapterItem.HolderItem holder, int position) {
         /*Get, set, and handle data and clicks...*/
         //get data
+
+        String id,title, description, dateObtained, collectionId;
+
         ModelItem model = itemArrayList.get(position);
         title = model.getTitle();
         description = model.getDescription();
         dateObtained = model.getDateObtained();
         String uid = model.getUid();
+        id = model.getId();
+        collectionId = model.getCollectionId();
         long timestamp = model.getTimestamp();
 
         //set data
@@ -95,19 +101,28 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.HolderItem> im
         holder.lblDate.setText(dateObtained);
 
         //load other details
-        loadCollection(model, holder);
         loadItemFromUrl(model, holder);
 
-        //handle click, show dialog with options 1)Edit and 2)Delete
-        holder.btnMore.setOnClickListener(new View.OnClickListener() {
+        holder.cvItem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                moreOptionsDialog(model, holder);
+                Intent intent = new Intent(context, ItemDescription.class);
+                intent.putExtra("itemId", id);
+                intent.putExtra("collectionId", collectionId);
+                context.startActivity(intent);
+            }
+        });
+
+        holder.cvItem.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                moreOptionsDialog(model, holder, title, description, dateObtained);
+                return true;
             }
         });
     }
 
-    private void moreOptionsDialog(ModelItem model, HolderItem holder) {
+    private void moreOptionsDialog(ModelItem model, HolderItem holder, String title, String description, String dateObtained) {
         String itemId = model.getId();
         String itemUrl = model.getUrl();
         String itemTitle = model.getTitle();
@@ -132,10 +147,10 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.HolderItem> im
                             //sends item data
                             Intent intent = new Intent(Intent.ACTION_SEND);
                             intent.setType("text/plain");
-                            String body = "" + itemUrl + "\n\n" +
-                                    "Item name: " + title + "\n" +
-                                    "Description:\n" + description + "\n" +
-                                    "Date Obtained: " + dateObtained;
+                            String body = "Item name: " + title + "\n\n" +
+                                    "Description:\n" + description + "\n\n" +
+                                    "Date Obtained: " + dateObtained + "\n\n" +
+                                    itemUrl;
                             intent.putExtra(Intent.EXTRA_TEXT, body);
                             context.startActivity(Intent.createChooser(intent, "Share using.."));
                         }
@@ -149,9 +164,6 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.HolderItem> im
                                         public void onClick(DialogInterface dialog, int which) {
                                             Toast.makeText(context, "Deleting...", Toast.LENGTH_SHORT).show();
                                             deleteItem(model, holder);
-
-                                            Intent intent = new Intent(context, home.class);
-                                            context.startActivity(intent);
                                         }
                                     })
                                     .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
@@ -223,31 +235,9 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.HolderItem> im
           (Image Uploader Part2), 2020*/
         String itemUrl = model.getUrl();
         Glide.with(context)
-                .load(itemUrl)
+                .load(itemUrl).centerCrop()
                 .into(holder.picView);
 
-    }
-
-    private void loadCollection(ModelItem model, HolderItem holder) {
-        //get collection using collectionId
-        String collectionId = model.getCollectionId();
-
-        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("Collections");
-        ref.child(collectionId)
-                .addListenerForSingleValueEvent(new ValueEventListener() {
-                    @Override
-                    public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        String collection = ""+snapshot.child("collection").getValue();
-
-                        //set to collection textview
-                        holder.lblCollection.setText(collection);
-                    }
-
-                    @Override
-                    public void onCancelled(@NonNull DatabaseError error) {
-
-                    }
-                });
     }
 
     @Override
@@ -270,6 +260,7 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.HolderItem> im
         ImageView picView;
         TextView lblTitle, lblDescription, lblCollection, lblDate;
         ImageButton btnMore;
+        CardView cvItem;
 
         public HolderItem(@NonNull View itemView) {
             super(itemView);
@@ -278,10 +269,8 @@ public class AdapterItem extends RecyclerView.Adapter<AdapterItem.HolderItem> im
             picView = binding.picView;
             lblTitle = binding.lblTitle;
             lblDescription = binding.lblDescription;
-            lblCollection = binding.lblCollection;
             lblDate = binding.lblDate;
-            btnMore = binding.btnMore;
-
+            cvItem = binding.cvItems;
         }
     }
 }

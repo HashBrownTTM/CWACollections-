@@ -4,13 +4,13 @@ package com.example.cwacollections.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.LinearLayout;
+import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -18,54 +18,28 @@ import java.lang.String;
 
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
-  public final Button btnLogin;
+  public final ImageView imgLogo;
 
   @NonNull
-  public final TextView lblForgotPassword;
+  public final TextView lblCheckUser;
 
   @NonNull
-  public final TextView lblHeading1;
+  public final TextView lblHeading;
 
-  @NonNull
-  public final TextView lblHeading2;
-
-  @NonNull
-  public final TextView lblHeading3;
-
-  @NonNull
-  public final TextView lblHeading4;
-
-  @NonNull
-  public final TextView lblSignup;
-
-  @NonNull
-  public final EditText txtlEmail;
-
-  @NonNull
-  public final EditText txtlPassword;
-
-  private ActivityMainBinding(@NonNull LinearLayout rootView, @NonNull Button btnLogin,
-      @NonNull TextView lblForgotPassword, @NonNull TextView lblHeading1,
-      @NonNull TextView lblHeading2, @NonNull TextView lblHeading3, @NonNull TextView lblHeading4,
-      @NonNull TextView lblSignup, @NonNull EditText txtlEmail, @NonNull EditText txtlPassword) {
+  private ActivityMainBinding(@NonNull RelativeLayout rootView, @NonNull ImageView imgLogo,
+      @NonNull TextView lblCheckUser, @NonNull TextView lblHeading) {
     this.rootView = rootView;
-    this.btnLogin = btnLogin;
-    this.lblForgotPassword = lblForgotPassword;
-    this.lblHeading1 = lblHeading1;
-    this.lblHeading2 = lblHeading2;
-    this.lblHeading3 = lblHeading3;
-    this.lblHeading4 = lblHeading4;
-    this.lblSignup = lblSignup;
-    this.txtlEmail = txtlEmail;
-    this.txtlPassword = txtlPassword;
+    this.imgLogo = imgLogo;
+    this.lblCheckUser = lblCheckUser;
+    this.lblHeading = lblHeading;
   }
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -90,62 +64,25 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnLogin;
-      Button btnLogin = rootView.findViewById(id);
-      if (btnLogin == null) {
+      id = R.id.imgLogo;
+      ImageView imgLogo = ViewBindings.findChildViewById(rootView, id);
+      if (imgLogo == null) {
         break missingId;
       }
 
-      id = R.id.lblForgotPassword;
-      TextView lblForgotPassword = rootView.findViewById(id);
-      if (lblForgotPassword == null) {
+      id = R.id.lblCheckUser;
+      TextView lblCheckUser = ViewBindings.findChildViewById(rootView, id);
+      if (lblCheckUser == null) {
         break missingId;
       }
 
-      id = R.id.lblHeading1;
-      TextView lblHeading1 = rootView.findViewById(id);
-      if (lblHeading1 == null) {
+      id = R.id.lblHeading;
+      TextView lblHeading = ViewBindings.findChildViewById(rootView, id);
+      if (lblHeading == null) {
         break missingId;
       }
 
-      id = R.id.lblHeading2;
-      TextView lblHeading2 = rootView.findViewById(id);
-      if (lblHeading2 == null) {
-        break missingId;
-      }
-
-      id = R.id.lblHeading3;
-      TextView lblHeading3 = rootView.findViewById(id);
-      if (lblHeading3 == null) {
-        break missingId;
-      }
-
-      id = R.id.lblHeading4;
-      TextView lblHeading4 = rootView.findViewById(id);
-      if (lblHeading4 == null) {
-        break missingId;
-      }
-
-      id = R.id.lblSignup;
-      TextView lblSignup = rootView.findViewById(id);
-      if (lblSignup == null) {
-        break missingId;
-      }
-
-      id = R.id.txtlEmail;
-      EditText txtlEmail = rootView.findViewById(id);
-      if (txtlEmail == null) {
-        break missingId;
-      }
-
-      id = R.id.txtlPassword;
-      EditText txtlPassword = rootView.findViewById(id);
-      if (txtlPassword == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((LinearLayout) rootView, btnLogin, lblForgotPassword,
-          lblHeading1, lblHeading2, lblHeading3, lblHeading4, lblSignup, txtlEmail, txtlPassword);
+      return new ActivityMainBinding((RelativeLayout) rootView, imgLogo, lblCheckUser, lblHeading);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    android:textColor="#FFFFFF">
+    android:textColor="@color/white">
 
     <group android:checkableBehavior="single">
         <item android:id="@+id/nav_collections"
@@ -13,15 +13,11 @@
 
         <item android:id="@+id/nav_new_item"
             android:icon="@mipmap/baseline_note_add_black_24"
-            android:title="     New Item..."/>
+            android:title="New Item..."/>
 
         <item android:id="@+id/nav_game"
             android:icon="@mipmap/baseline_sports_esports_black_24"
             android:title="Memory Game (extra)"/>
-
-        <item android:id="@+id/nav_account"
-            android:icon="@drawable/ic_account"
-            android:title="Account"/>
 
         <item android:id="@+id/nav_logout"
             android:icon="@mipmap/baseline_logout_black_24"

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cwa_grey2"
+    tools:context=".Profile">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@color/cwa_grey4">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_margin="12dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            app:srcCompat="?android:attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/lblItemHeading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/btnBack"
+            android:layout_marginEnd="50dp"
+            android:fontFamily="@font/comfortaa_bold"
+            android:gravity="center"
+            android:lines="2"
+            android:text="Profile"
+            android:textSize="24sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header"
+        android:layout_above="@id/llButtons">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lblName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Name:"
+                android:fontFamily="@font/comfortaa_bold"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtPName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/lblName"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/editbox_style"
+                android:drawableStart="@drawable/ic_baseline_account_box_24"
+                android:drawablePadding="5dp"
+                android:hint="Enter your full name"
+                android:inputType="text"
+                android:padding="3dp"
+                android:textColor="@color/cwa_grey4"
+                android:textColorHint="@color/cwa_grey2"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/lblEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtPName"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Email:"
+                android:fontFamily="@font/comfortaa_bold"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtPEmail"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/lblEmail"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/editbox_style"
+                android:drawableStart="@drawable/ic_at"
+                android:drawablePadding="5dp"
+                android:focusable="false"
+                android:hint="Enter your email address"
+                android:inputType="textEmailAddress"
+                android:padding="3dp"
+                android:textColor="@color/cwa_grey4"
+                android:textColorHint="@color/cwa_grey2"
+                android:textSize="20dp" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@+id/txtPEmail"
+                android:background="@color/white"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:id="@+id/lblChangePassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:layout_below="@+id/view1"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:padding="10dp"
+                android:text="Change Password"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                app:drawableEndCompat="@drawable/ic_forward" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@+id/lblChangePassword"
+                android:background="@color/white"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"/>
+
+            <TextView
+                android:id="@+id/lblDeleteAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?selectableItemBackground"
+                android:layout_below="@+id/view2"
+                android:layout_marginHorizontal="30dp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:padding="10dp"
+                android:text="Delete Account"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                app:drawableEndCompat="@drawable/ic_forward" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="1.5dp"
+                android:layout_below="@+id/lblDeleteAccount"
+                android:background="@color/white"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="10dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/llButtons"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSaveChanges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style_3"
+            app:backgroundTint="@color/cwa_blue2"
+            android:textAllCaps="false"
+            android:text="Save Changes"
+            android:fontFamily="@font/comfortaa_bold"
+            android:layout_weight="5"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style_3"
+            app:backgroundTint="@color/cwa_blue2"
+            android:textAllCaps="false"
+            android:text="Cancel"
+            android:fontFamily="@font/comfortaa_bold"
+            android:layout_weight="5"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+</RelativeLayout>

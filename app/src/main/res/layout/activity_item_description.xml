@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ItemDescription"
+    android:background="@color/cwa_grey2">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/cwa_grey4">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_margin="12dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            app:srcCompat="?android:attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/lblItemHeading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/btnEdit"
+            android:layout_toEndOf="@+id/btnBack"
+            android:fontFamily="@font/comfortaa_bold"
+            android:gravity="center"
+            android:lines="2"
+            android:text=""
+            android:textSize="24sp" />
+
+        <ImageButton
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="6dp"
+            android:layout_marginVertical="12dp"
+            android:layout_toStartOf="@+id/btnMore"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            app:tint="@color/cwa_grey3"
+            android:src="@drawable/ic_baseline_edit_24" />
+
+        <ImageButton
+            android:id="@+id/btnMore"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_marginHorizontal="6dp"
+            android:layout_marginVertical="12dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            app:tint="@color/cwa_grey3"
+            android:src="@drawable/ic_baseline_more_vert_24" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/item_rounded">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/lblDateObtained">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/picView"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:adjustViewBounds="true"
+                    android:background="@color/white"
+                    android:maxHeight="500dp"
+                    app:srcCompat="@drawable/add_image" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/picView"
+                    android:layout_marginStart="-30dp"
+                    android:layout_marginTop="-30dp"
+                    android:layout_toEndOf="@id/picView"
+                    android:background="@drawable/mini_button_style"
+                    android:alpha=".75"
+                    android:padding="5dp"
+                    android:src="@drawable/ic_baseline_zoom_out_map_24"/>
+
+                <TextView
+                    android:id="@+id/txtItemDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/picView"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="25dp"
+                    android:fontFamily="@font/comfortaa"
+                    android:scrollbars="vertical"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </ScrollView>
+
+        <TextView
+            android:id="@+id/lblDateObtained"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/comfortaa"
+            android:text=""
+            android:textColor="@color/black" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
+<androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,126 +13,120 @@
     android:orientation="vertical"
     android:background="@color/cwa_grey2">
 
-    <LinearLayout
-        android:id="@+id/toolbar"
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:background="@color/cwa_grey">
+        android:fitsSystemWindows="true">
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-            <ImageButton
-                android:id="@+id/btnBack"
-                android:layout_width="43dp"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/cwa_grey"
-                android:paddingTop="20sp"
-                android:paddingBottom="20sp"
-                android:layout_marginTop="10dp"
-                app:srcCompat="?android:attr/actionModeCloseDrawable" />
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            app:title="Collection"
+            android:background="@color/cwa_grey4"
+            app:expandedTitleGravity="center"
+            app:layout_scrollFlags="scroll|snap|exitUntilCollapsed">
 
-            <LinearLayout
-                android:layout_width="wrap_content"
+            <RelativeLayout
+                android:id="@+id/toolbarHeading"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_toStartOf="@+id/btnStats"
-                android:layout_toEndOf="@+id/btnBack">
+                android:layout_marginBottom="?attr/actionBarSize">
 
                 <TextView
                     android:id="@+id/lblCollectionName"
-                    android:fontFamily="@font/comfortaa_bold"
-                    style="@style/TextAppearance.MaterialComponents.Headline6"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="15sp"
-                    android:layout_marginBottom="5sp"
+                    android:layout_height="?attr/actionBarSize"
+                    android:fontFamily="@font/comfortaa_bold"
+                    android:gravity="center"
                     android:text="Collection"
-                    android:textAlignment="center"
-                    android:textColor="@color/black"
                     android:textSize="24sp" />
 
                 <TextView
                     android:id="@+id/lblGoal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text=""
+                    android:layout_below="@id/lblCollectionName"
+                    android:layout_marginVertical="10dp"
+                    android:text="0/0"
                     android:textAlignment="center"
-                    android:textColor="@color/black"
-                    android:layout_marginLeft="120dp"
-                    android:layout_marginRight="120dp"
-                    android:layout_marginTop="10dp"
-                    android:textSize="20sp"
-                    android:background="@drawable/rounded_corner"
-                    tools:layout_editor_absoluteX="127dp"
-                    tools:layout_editor_absoluteY="37dp"
-                    android:layout_marginBottom="15dp"/>
-            </LinearLayout>
+                    android:textSize="20sp"/>
 
-            <ImageButton
-                android:id="@+id/btnStats"
-                android:layout_width="43dp"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_marginTop="10dp"
-                android:backgroundTint="@color/cwa_grey"
-                android:paddingTop="20sp"
-                android:paddingBottom="20sp"
-                android:src="@mipmap/baseline_settings_black_24" />
-        </RelativeLayout>
+            </RelativeLayout>
 
-
-    </LinearLayout>
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <EditText
-            android:id="@+id/txtSearch"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:background="@color/white"
-            android:padding="10dp"
-            android:hint="Search"
-            android:textColorHint="@color/cwa_grey"
-            android:drawableStart="@drawable/ic_baseline_search_24"
-            android:drawablePadding="10dp"
-            android:textColor="@color/black"/>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvItems"
-            android:layout_below="@+id/txtSearch"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            tools:listitem="@layout/row_item"
-            android:layout_margin="5dp"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginTop="100dp"
-            android:id="@+id/llNoCollection">
-
-            <ImageView
-                android:id="@+id/imageView2"
+            <androidx.appcompat.widget.Toolbar
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                app:srcCompat="@drawable/ic_baseline_error_outline_24" />
+                android:layout_height="?attr/actionBarSize"
+                android:contentInsetLeft="0dp"
+                android:contentInsetStart="0dp"
+                app:contentInsetLeft="0dp"
+                app:contentInsetStart="0dp"
+                app:layout_collapseMode="pin"
+                android:layout_gravity="bottom">
+                <include
+                    android:id="@+id/toolbar"
+                    layout="@layout/toolbar_collection_items"/>
 
-            <TextView
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvItems"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/row_item" />
+
+            <TextView
+                android:id="@+id/llNoCollection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
                 android:fontFamily="@font/comfortaa_bold"
-                android:textAlignment="center"
-                android:textSize="20dp"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:textSize="20sp"
                 android:textColor="@color/black"
-                android:text="No Items have been found.\n\nTo add a new Item, go back to\n the home page, select the\nmenu button or swipe to the right \nfrom the left edge, and select\n'New Item...'"/>
-        </LinearLayout>
-    </RelativeLayout>
-</LinearLayout>
+                android:text="No items in this collection\nhave been found."
+                app:drawableTopCompat="@drawable/ic_baseline_error_outline_24" />
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAddItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="12dp"
+        android:backgroundTint="@color/cwa_blue2"
+        android:src="@mipmap/baseline_note_add_black_24"
+        app:fabSize="normal"
+        android:contentDescription="TODO" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+<!-- References
+Stack Overflow. 2022. java - Adding ripple effect for View in onClick - Stack Overflow. [ONLINE]
+Available at: https://stackoverflow.com/questions/38628607/adding-ripple-effect-for-view-in-onclick.
+[Accessed 20 May 2022].
+
+
+
+-->

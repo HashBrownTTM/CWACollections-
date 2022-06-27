@@ -6,16 +6,16 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
+import com.example.cwacollections.models.Users;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
@@ -25,7 +25,75 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity{
+    TextView lblCheckUser;
+    FirebaseAuth firebaseAuth;
+
+    public String uid;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        lblCheckUser = findViewById(R.id.lblCheckUser);
+        firebaseAuth = FirebaseAuth.getInstance();
+
+        CheckLoggedInUser();
+
+    }
+
+    private void CheckLoggedInUser() {
+        FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
+
+        if(firebaseUser != null){ //user Logged in
+            DatabaseReference reference = FirebaseDatabase.getInstance().getReference("Users");
+            reference.child(firebaseAuth.getUid())
+                    .addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                            Users users = snapshot.getValue(Users.class);
+                            lblCheckUser.setText(users.getFullName() + "\nis logged in.");
+
+                            new Handler().postDelayed(new Runnable() {
+                                @Override
+                                public void run() {
+                                    startActivity(new Intent(MainActivity.this, home.class));
+                                    finish();
+                                }
+                            }, 1500);
+                        }
+
+                        @Override
+                        public void onCancelled(@NonNull DatabaseError error) {
+
+                        }
+                    });
+        }
+        else{ //no users logged in
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    startActivity(new Intent(MainActivity.this, LoginOrRegister.class));
+                    finish();
+                }
+            }, 1500);
+        }
+    }
+}
+
+/* References
+Android Tutorials. 2021. Android Tutorials.
+[ONLINE] Available at: https://devofandroid.blogspot.com/. [Accessed 02 June 2021].
+
+Book App Firebase | 02 Login SignUp | Android Studio | Java. 2021. YouTube video, added by Atif Pervaiz
+[ONLINE]. Available at: https://youtu.be/SbUtFAu9O7k. [Accessed 02 June 2021].
+
+
+
+
+
+
+
     TextView lblSignup, lblForgotPassword;
     Button btnLogin;
     EditText txtlEmail, txtlPassword;
@@ -144,7 +212,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
             case R.id.lblForgotPassword:
-                intent = new Intent(MainActivity.this, forgotPassword.class);
+                intent = new Intent(MainActivity.this, ResetPassword.class);
                 startActivity(intent);
                 break;
         }
@@ -175,13 +243,4 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //mFirebaseAuth.addAuthStateListener(mAuthStateListener);
     }
-}
-
-/* References
-Android Tutorials. 2021. Android Tutorials.
-[ONLINE] Available at: https://devofandroid.blogspot.com/. [Accessed 02 June 2021].
-
-Book App Firebase | 02 Login SignUp | Android Studio | Java. 2021. YouTube video, added by Atif Pervaiz
-[ONLINE]. Available at: https://youtu.be/SbUtFAu9O7k. [Accessed 02 June 2021].
-
 */

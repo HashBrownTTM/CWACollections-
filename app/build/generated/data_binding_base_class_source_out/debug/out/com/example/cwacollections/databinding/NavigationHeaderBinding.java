@@ -9,6 +9,7 @@ import android.widget.RelativeLayout;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -54,7 +55,7 @@ public final class NavigationHeaderBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.imgHeader;
-      ImageView imgHeader = rootView.findViewById(id);
+      ImageView imgHeader = ViewBindings.findChildViewById(rootView, id);
       if (imgHeader == null) {
         break missingId;
       }

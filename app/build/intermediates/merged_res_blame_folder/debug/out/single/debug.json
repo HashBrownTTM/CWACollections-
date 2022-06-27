@@ -1,438 +1,630 @@
 [
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_item_rounded.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\item_rounded.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_adder.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_collection_adder.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_image_placeholder.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\image_placeholder.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_search_24.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\baseline_menu_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_with_name.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\logo_with_name.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_button_style_3.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\button_style_3.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_toolbar_collection_items.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\toolbar_collection_items.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_add.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_view_style_2.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\view_style_2.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_folder_style_1.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\folder_style_1.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_view_style.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\view_style.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\baseline_menu_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_user_info.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_user_info.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_splash_image.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\splash_image.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_navigation_header.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\navigation_header.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_account_box_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_account_box_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\row_item.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_baseline_info_outline_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\baseline_info_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cwa_launcher.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cwa_launcher.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_named_logo.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_named_logo.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\baseline_logout_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_button_style_2.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\button_style_2.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\baseline_create_new_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_image.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\add_image.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_editor.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_collection_editor.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_error_outline_24.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_baseline_error_outline_24.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_full_screen_image.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_full_screen_image.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\toolbar.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_cwa_launcher_background.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_cwa_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_corner.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_add.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_light.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\font\\comfortaa_light.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\baseline_logout_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_memory_game.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_memory_game.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_visibility_off_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_visibility_off_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\baseline_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\font_comfortaa_bold.ttf.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\font\\comfortaa_bold.ttf"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_create_new_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_registration.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_registration.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_collection.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\row_collection.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_confirm.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\dialog_confirm.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_error_outline_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_error_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa.ttf.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\font\\comfortaa.ttf"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_add_image.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\add_image.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_down_drop.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_down_drop.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_cwa_launcher_round.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cwa_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_account.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_account.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_home.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_create_new_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_delete_outline_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_delete_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_action.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\action.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\anim\\slide_in_left.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_down_drop.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_down_drop.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseline_menu_24.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\baseline_menu_24.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\baseline_menu_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stats_full.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\stats_full.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_more_vert_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_or_register.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_login_or_register.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_settings_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_item_editor.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_item_editor.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_logout_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_logout_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_collection_progress.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_collection_progress.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\menu_navigation_menu.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\menu\\navigation_menu.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_edit_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_mini_button_style.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\mini_button_style.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_collection_items.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_collection_items.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_close_white_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_close_white_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_settings_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_rounded_corner.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\rounded_corner.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_button_style.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\button_style.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_with_name.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\logo_with_name.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_colour_picker.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\dialog_colour_picker.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_settings_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_settings_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_stats_progress.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\stats_progress.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_text_border.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\edit_text_border.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_item_adder.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_item_adder.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo_2.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\logo_2.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_baseline_done_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\baseline_done_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_image.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\splash_image.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\font_comfortaa_light.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\font\\comfortaa_light.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_logo.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\logo.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_row_collection.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\row_collection.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_toolbar.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_sports_esports_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_sports_esports_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\baseline_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_2.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\logo_2.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_more_vert_24.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_baseline_more_vert_24.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher_foreground.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\menu_item_description_menu.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\menu\\item_description_menu.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_forgot_password.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_forgot_password.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_baseline_call_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\ic_baseline_call_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_at.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_at.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_lock_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_lock_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_cwa_launcher_round.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cwa_launcher_round.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\menu_home_menu.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\menu\\home_menu.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\logo.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_menu_24.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_radiobutton_selector.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\radiobutton_selector.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\anim\\slide_out_right.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\menu_navigation_menu.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\menu\\navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_dialog_reauthenticate.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\dialog_reauthenticate.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_cwa_launcher_foreground.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher_foreground.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_profile.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_logout_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_logout_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_logo.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_logo.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cwa_launcher_round.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher_round.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_baseline_note_add_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_note_add_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_manage_collections.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\layout\\activity_manage_collections.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_cwa_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_named_logo.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_named_logo.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_navigation_header.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\navigation_header.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stats_progress.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\stats_progress.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_reset_password.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_reset_password.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_note_add_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_note_add_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_baseline_sports_esports_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_sports_esports_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\baseline_settings_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_baseline_menu_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-mdpi\\baseline_menu_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_create_new_folder_black_24.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_logo.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_logo.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_stats_full.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\stats_full.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\font_comfortaa_bold.ttf.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\font\\comfortaa_bold.ttf"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_account.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_account.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_cwa_launcher.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_about_us.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_about_us.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_nav_style.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable-v24\\nav_style.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_cwa_launcher_background.xml.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\drawable\\ic_cwa_launcher_background.xml"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\anim\\slide_in_right.xml"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_baseline_create_new_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_create_new_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\ic_cwa_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_baseline_folder_black_24.png.flat",
-        "source": "C:\\Users\\19005489\\Downloads\\CWACollections\\CWACollections\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_folder_black_24.png"
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_baseline_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_folder_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login_or_register.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_login_or_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_memory_game.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_memory_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_radiobutton_style.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\radiobutton_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_item_adder.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_item_adder.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_editbox_style.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\editbox_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_search_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\baseline_menu_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\font_comfortaa.ttf.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\font\\comfortaa.ttf"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_nav_style.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\nav_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_options_menu_style.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\options_menu_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_baseline_logout_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_logout_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_baseline_download_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\baseline_download_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_baseline_scroll_top_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable-v24\\baseline_scroll_top_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_cwa_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_remove_red_eye_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_right_nav_style.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\right_nav_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_collection_adder.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_collection_adder.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_baseline_create_new_folder_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-hdpi\\baseline_create_new_folder_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_add_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_calendar_month_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_calendar_month_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxxhdpi\\baseline_menu_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\menu_collection_items_menu.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\menu\\collection_items_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_cwa_launcher.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\ic_cwa_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_user_info.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_user_info.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_zoom_out_map_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_zoom_out_map_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_color_lens_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_color_lens_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_registration.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_settings_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_baseline_menu_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xxhdpi\\baseline_menu_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\anim\\slide_out_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_collection_editor.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_collection_editor.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_forward.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_baseline_settings_black_24.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-mdpi\\baseline_settings_black_24.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_cwa_launcher_foreground.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_cwa_launcher_round.png.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-xhdpi\\ic_cwa_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_row_item.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\row_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_collection_items.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_collection_items.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_cwa_launcher.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_cwa_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_done_24.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\drawable\\ic_baseline_done_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_item_description.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_item_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_item_editor.xml.flat",
+        "source": "C:\\Users\\HashBrown_TTM\\Documents\\Varsity College\\Third Year\\OPSC7312 (Open Source Coding Inter.)\\CWACollections-\\app\\src\\main\\res\\layout\\activity_item_editor.xml"
     }
 ]

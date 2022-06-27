@@ -73,7 +73,7 @@ public class userInfo extends AppCompatActivity implements View.OnClickListener{
                             public void onClick(DialogInterface dialog, int which) {
                                 if(which == 0){
                                     //change password option
-                                    Intent intent = new Intent(userInfo.this,  forgotPassword.class);
+                                    Intent intent = new Intent(userInfo.this,  ResetPassword.class);
                                     startActivity(intent);
                                 }
                                 else if(which == 1){

@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -22,17 +23,17 @@ public final class RowCollectionBinding implements ViewBinding {
   public final CardView cvCollection;
 
   @NonNull
-  public final TextView lblCollection;
+  public final View folderColour;
 
   @NonNull
-  public final TextView lblCount;
+  public final TextView lblCollection;
 
   private RowCollectionBinding(@NonNull CardView rootView, @NonNull CardView cvCollection,
-      @NonNull TextView lblCollection, @NonNull TextView lblCount) {
+      @NonNull View folderColour, @NonNull TextView lblCollection) {
     this.rootView = rootView;
     this.cvCollection = cvCollection;
+    this.folderColour = folderColour;
     this.lblCollection = lblCollection;
-    this.lblCount = lblCount;
   }
 
   @Override
@@ -64,19 +65,20 @@ public final class RowCollectionBinding implements ViewBinding {
     missingId: {
       CardView cvCollection = (CardView) rootView;
 
+      id = R.id.folderColour;
+      View folderColour = ViewBindings.findChildViewById(rootView, id);
+      if (folderColour == null) {
+        break missingId;
+      }
+
       id = R.id.lblCollection;
-      TextView lblCollection = rootView.findViewById(id);
+      TextView lblCollection = ViewBindings.findChildViewById(rootView, id);
       if (lblCollection == null) {
         break missingId;
       }
 
-      id = R.id.lblCount;
-      TextView lblCount = rootView.findViewById(id);
-      if (lblCount == null) {
-        break missingId;
-      }
-
-      return new RowCollectionBinding((CardView) rootView, cvCollection, lblCollection, lblCount);
+      return new RowCollectionBinding((CardView) rootView, cvCollection, folderColour,
+          lblCollection);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

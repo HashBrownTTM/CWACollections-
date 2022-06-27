@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:contentInsetLeft="0dp"
+    android:contentInsetStart="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetStart="0dp"
+    app:menu="@menu/collection_items_menu"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_margin="12dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:padding="5dp"
+            app:srcCompat="?android:attr/actionModeCloseDrawable" />
+
+        <TextView
+            android:id="@+id/lblTCollectionName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/btnBack"
+            android:fontFamily="@font/comfortaa_bold"
+            android:text="Collection"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:textSize="24sp" />
+
+    </RelativeLayout>
+
+</androidx.appcompat.widget.Toolbar>
+
+<!-- References
+Stack Overflow. 2022. java - Adding ripple effect for View in onClick - Stack Overflow. [ONLINE]
+Available at: https://stackoverflow.com/questions/38628607/adding-ripple-effect-for-view-in-onclick.
+[Accessed 20 May 2022].
+
+-->

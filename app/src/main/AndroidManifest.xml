@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.cwacollections">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Without this folders will be inaccessible in Android-11 and above devices -->
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" /> <!-- Without this entry storage-permission entry will not be visible under app-info permissions list Android-10 and below -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29"
+        tools:ignore="ScopedStorage" />
 
     <application
         android:name=".MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_cwa_launcher"
         android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_cwa_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/processTheme" >
+        android:theme="@style/processTheme">
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".FullScreenImage"
+            android:exported="false" />
+        <activity
+            android:name=".ItemDescription"
+            android:exported="false"
+            android:theme="@style/popupTheme" />
         <activity
             android:name=".Login"
             android:exported="false" />
@@ -23,11 +46,8 @@
             android:name=".userInfo"
             android:exported="false" />
         <activity
-            android:name=".forgotPassword"
-            android:exported="false" />
-        <activity
             android:name=".collectionEditor"
-            android:exported="false"  />
+            android:exported="false" />
         <activity
             android:name=".memoryGame"
             android:exported="false" />
@@ -36,19 +56,19 @@
             android:exported="false" />
         <activity
             android:name=".collectionAdder"
-            android:exported="false"  />
+            android:exported="false" />
         <activity
             android:name=".itemAdder"
-            android:exported="false"  />
+            android:exported="false" />
         <activity
             android:name=".collectionItems"
             android:exported="false" />
         <activity
-            android:name=".manageCollections"
-            android:exported="false"  />
+            android:name=".collectionProgress"
+            android:exported="false" />
         <activity
             android:name=".home"
-            android:exported="false"  />
+            android:exported="false" />
         <activity
             android:name=".registration"
             android:exported="false" />

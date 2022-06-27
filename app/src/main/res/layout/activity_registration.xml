@@ -1,141 +1,202 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/cwa_grey"
-    android:orientation="vertical"
+    android:background="@color/cwa_grey2"
     android:fillViewport="true">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/lblHeading1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="60dp"
-                android:fontFamily="@font/comfortaa_bold"
-                android:text="Sign Up"
-                android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textSize="23sp" />
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/lblHeading2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
                 android:fontFamily="@font/comfortaa_bold"
-                android:text="Please enter your login details"
+                android:text="Create Account"
                 android:textAlignment="center"
-                android:textColor="#FFFFFF"
-                android:textSize="17sp"/>
+                android:textSize="25sp" />
 
             <TextView
-                android:id="@+id/lblHeading5"
+                android:id="@+id/lblName"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:layout_marginLeft="45dp"
+                android:layout_below="@+id/lblHeading2"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Name:"
                 android:fontFamily="@font/comfortaa_bold"
-                android:text="Email"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp" />
+                android:textSize="19sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/lblName"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/editbox_style"
+                android:drawableStart="@drawable/ic_baseline_account_box_24"
+                android:drawablePadding="5dp"
+                android:hint="Enter your full name"
+                android:inputType="text"
+                android:padding="3dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/cwa_grey2"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/lblEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="Email:"
+                android:textSize="19sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/txtSEmail"
                 android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:layout_marginLeft="45dp"
-                android:layout_marginRight="45dp"
-                android:background="@drawable/edit_text_border"
-                android:ems="10"
+                android:layout_height="45dp"
+                android:layout_below="@id/lblEmail"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginVertical="5dp"
+                android:background="@drawable/editbox_style"
+                android:drawableStart="@drawable/ic_at"
+                android:drawablePadding="5dp"
                 android:hint="Enter your email address"
                 android:inputType="textEmailAddress"
-                android:paddingLeft="15dp"
-                android:textColor="#000000" />
+                android:padding="3dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/cwa_grey2"
+                android:textSize="20dp" />
 
             <TextView
-                android:id="@+id/lblHeading6"
+                android:id="@+id/lblPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:layout_marginLeft="45dp"
+                android:layout_below="@+id/txtSEmail"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Password:"
                 android:fontFamily="@font/comfortaa_bold"
-                android:text="Password"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp"/>
+                android:textSize="19sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/txtSPassword"
                 android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:layout_marginLeft="45dp"
-                android:layout_marginRight="45dp"
-                android:background="@drawable/edit_text_border"
-                android:ems="10"
-                android:hint="Enter your password"
+                android:layout_height="45dp"
+                android:layout_below="@id/lblPassword"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="5dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="-40dp"
+                android:background="@drawable/editbox_style"
+                android:drawableStart="@drawable/ic_lock_24"
+                android:drawablePadding="5dp"
+                android:hint="Enter password"
                 android:inputType="textPassword"
-                android:paddingLeft="15dp"
-                android:textColor="#000000" />
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/cwa_grey2"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/btnShowPassword1"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_below="@id/lblPassword"
+                android:layout_marginVertical="5dp"
+                android:layout_toEndOf="@+id/txtSPassword"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_remove_red_eye_24" />
 
             <TextView
-                android:id="@+id/lblHeading7"
+                android:id="@+id/lblConfirm"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="25dp"
-                android:layout_marginLeft="45dp"
+                android:layout_below="@+id/txtSPassword"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="20dp"
+                android:text="Confirm Password:"
                 android:fontFamily="@font/comfortaa_bold"
-                android:text="Confirm Password"
-                android:textColor="#FFFFFF"
-                android:textSize="16sp"/>
+                android:textSize="19sp"
+                android:textStyle="bold" />
 
             <EditText
                 android:id="@+id/txtConfirm"
                 android:layout_width="match_parent"
-                android:layout_height="38dp"
-                android:layout_marginLeft="45dp"
-                android:layout_marginRight="45dp"
-                android:background="@drawable/edit_text_border"
-                android:ems="10"
-                android:hint="Enter your password (again)"
+                android:layout_height="45dp"
+                android:layout_below="@id/lblConfirm"
+                android:layout_centerHorizontal="true"
+                android:layout_marginVertical="5dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginEnd="-40dp"
+                android:background="@drawable/editbox_style"
+                android:drawableStart="@drawable/ic_lock_24"
+                android:drawablePadding="5dp"
+                android:hint="Re-enter password"
                 android:inputType="textPassword"
-                android:paddingLeft="15dp"
-                android:textColor="#000000" />
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/cwa_grey2"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:id="@+id/btnShowPassword2"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_below="@id/lblConfirm"
+                android:layout_marginVertical="5dp"
+                android:layout_toEndOf="@+id/txtConfirm"
+                android:background="@android:color/transparent"
+                android:padding="5dp"
+                android:src="@drawable/ic_baseline_remove_red_eye_24" />
 
             <TextView
                 android:id="@+id/lblLogin"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="150dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/txtConfirm"
+                android:layout_marginVertical="20dp"
                 android:fontFamily="@font/comfortaa_bold"
                 android:text="Already have an account?\nLogin here"
                 android:textAlignment="center"
-                android:textColor="#000000"/>
+                android:textSize="18sp" />
 
             <Button
                 android:id="@+id/btnSignup"
                 android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:layout_marginLeft="150dp"
-                android:layout_marginRight="150dp"
-                android:layout_marginTop="20dp"
-                android:layout_marginBottom="20dp"
-                app:backgroundTint="@color/cwa_blue2"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lblLogin"
+                android:layout_marginHorizontal="40dp"
+                android:layout_marginVertical="30dp"
+                android:background="@drawable/button_style"
                 android:fontFamily="@font/comfortaa_bold"
-                android:text="Sign up"
-                android:textColor="#000000" />
+                android:gravity="center"
+                android:text="Create Account"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:backgroundTint="@color/cwa_blue2" />
 
-        </LinearLayout>
+        </RelativeLayout>
 
     </ScrollView>
-</LinearLayout>
+</RelativeLayout>

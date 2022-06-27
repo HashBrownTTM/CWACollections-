@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -68,25 +69,25 @@ public final class ActivityUserInfoBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnBack;
-      ImageButton btnBack = rootView.findViewById(id);
+      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
         break missingId;
       }
 
       id = R.id.btnMore;
-      ImageButton btnMore = rootView.findViewById(id);
+      ImageButton btnMore = ViewBindings.findChildViewById(rootView, id);
       if (btnMore == null) {
         break missingId;
       }
 
       id = R.id.lblEmail;
-      TextView lblEmail = rootView.findViewById(id);
+      TextView lblEmail = ViewBindings.findChildViewById(rootView, id);
       if (lblEmail == null) {
         break missingId;
       }
 
       id = R.id.textView;
-      TextView textView = rootView.findViewById(id);
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }

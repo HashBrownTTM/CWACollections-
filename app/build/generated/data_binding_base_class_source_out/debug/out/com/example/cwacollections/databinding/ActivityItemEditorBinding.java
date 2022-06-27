@@ -4,15 +4,15 @@ package com.example.cwacollections.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,16 +20,16 @@ import java.lang.String;
 
 public final class ActivityItemEditorBinding implements ViewBinding {
   @NonNull
-  private final LinearLayout rootView;
+  private final RelativeLayout rootView;
 
   @NonNull
   public final ImageButton btnBack;
 
   @NonNull
-  public final Button btnDate;
+  public final ImageButton btnDate;
 
   @NonNull
-  public final Button btnEditItem;
+  public final ImageButton btnEditItem;
 
   @NonNull
   public final TextView dtObtained;
@@ -56,6 +56,9 @@ public final class ActivityItemEditorBinding implements ViewBinding {
   public final TextView lblHeading5;
 
   @NonNull
+  public final RelativeLayout rlIAHeader;
+
+  @NonNull
   public final TextView spCollections;
 
   @NonNull
@@ -67,11 +70,12 @@ public final class ActivityItemEditorBinding implements ViewBinding {
   @NonNull
   public final EditText txtItemName;
 
-  private ActivityItemEditorBinding(@NonNull LinearLayout rootView, @NonNull ImageButton btnBack,
-      @NonNull Button btnDate, @NonNull Button btnEditItem, @NonNull TextView dtObtained,
+  private ActivityItemEditorBinding(@NonNull RelativeLayout rootView, @NonNull ImageButton btnBack,
+      @NonNull ImageButton btnDate, @NonNull ImageButton btnEditItem, @NonNull TextView dtObtained,
       @NonNull ImageView imgItem, @NonNull TextView lblHeading, @NonNull TextView lblHeading1,
       @NonNull TextView lblHeading2, @NonNull TextView lblHeading3, @NonNull TextView lblHeading4,
-      @NonNull TextView lblHeading5, @NonNull TextView spCollections, @NonNull TextView textView,
+      @NonNull TextView lblHeading5, @NonNull RelativeLayout rlIAHeader,
+      @NonNull TextView spCollections, @NonNull TextView textView,
       @NonNull EditText txtItemDescription, @NonNull EditText txtItemName) {
     this.rootView = rootView;
     this.btnBack = btnBack;
@@ -85,6 +89,7 @@ public final class ActivityItemEditorBinding implements ViewBinding {
     this.lblHeading3 = lblHeading3;
     this.lblHeading4 = lblHeading4;
     this.lblHeading5 = lblHeading5;
+    this.rlIAHeader = rlIAHeader;
     this.spCollections = spCollections;
     this.textView = textView;
     this.txtItemDescription = txtItemDescription;
@@ -93,7 +98,7 @@ public final class ActivityItemEditorBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public LinearLayout getRoot() {
+  public RelativeLayout getRoot() {
     return rootView;
   }
 
@@ -119,98 +124,104 @@ public final class ActivityItemEditorBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnBack;
-      ImageButton btnBack = rootView.findViewById(id);
+      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
         break missingId;
       }
 
       id = R.id.btnDate;
-      Button btnDate = rootView.findViewById(id);
+      ImageButton btnDate = ViewBindings.findChildViewById(rootView, id);
       if (btnDate == null) {
         break missingId;
       }
 
       id = R.id.btnEditItem;
-      Button btnEditItem = rootView.findViewById(id);
+      ImageButton btnEditItem = ViewBindings.findChildViewById(rootView, id);
       if (btnEditItem == null) {
         break missingId;
       }
 
       id = R.id.dtObtained;
-      TextView dtObtained = rootView.findViewById(id);
+      TextView dtObtained = ViewBindings.findChildViewById(rootView, id);
       if (dtObtained == null) {
         break missingId;
       }
 
       id = R.id.imgItem;
-      ImageView imgItem = rootView.findViewById(id);
+      ImageView imgItem = ViewBindings.findChildViewById(rootView, id);
       if (imgItem == null) {
         break missingId;
       }
 
       id = R.id.lblHeading;
-      TextView lblHeading = rootView.findViewById(id);
+      TextView lblHeading = ViewBindings.findChildViewById(rootView, id);
       if (lblHeading == null) {
         break missingId;
       }
 
       id = R.id.lblHeading1;
-      TextView lblHeading1 = rootView.findViewById(id);
+      TextView lblHeading1 = ViewBindings.findChildViewById(rootView, id);
       if (lblHeading1 == null) {
         break missingId;
       }
 
       id = R.id.lblHeading2;
-      TextView lblHeading2 = rootView.findViewById(id);
+      TextView lblHeading2 = ViewBindings.findChildViewById(rootView, id);
       if (lblHeading2 == null) {
         break missingId;
       }
 
       id = R.id.lblHeading3;
-      TextView lblHeading3 = rootView.findViewById(id);
+      TextView lblHeading3 = ViewBindings.findChildViewById(rootView, id);
       if (lblHeading3 == null) {
         break missingId;
       }
 
       id = R.id.lblHeading4;
-      TextView lblHeading4 = rootView.findViewById(id);
+      TextView lblHeading4 = ViewBindings.findChildViewById(rootView, id);
       if (lblHeading4 == null) {
         break missingId;
       }
 
       id = R.id.lblHeading5;
-      TextView lblHeading5 = rootView.findViewById(id);
+      TextView lblHeading5 = ViewBindings.findChildViewById(rootView, id);
       if (lblHeading5 == null) {
         break missingId;
       }
 
+      id = R.id.rlIAHeader;
+      RelativeLayout rlIAHeader = ViewBindings.findChildViewById(rootView, id);
+      if (rlIAHeader == null) {
+        break missingId;
+      }
+
       id = R.id.spCollections;
-      TextView spCollections = rootView.findViewById(id);
+      TextView spCollections = ViewBindings.findChildViewById(rootView, id);
       if (spCollections == null) {
         break missingId;
       }
 
       id = R.id.textView;
-      TextView textView = rootView.findViewById(id);
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }
 
       id = R.id.txtItemDescription;
-      EditText txtItemDescription = rootView.findViewById(id);
+      EditText txtItemDescription = ViewBindings.findChildViewById(rootView, id);
       if (txtItemDescription == null) {
         break missingId;
       }
 
       id = R.id.txtItemName;
-      EditText txtItemName = rootView.findViewById(id);
+      EditText txtItemName = ViewBindings.findChildViewById(rootView, id);
       if (txtItemName == null) {
         break missingId;
       }
 
-      return new ActivityItemEditorBinding((LinearLayout) rootView, btnBack, btnDate, btnEditItem,
+      return new ActivityItemEditorBinding((RelativeLayout) rootView, btnBack, btnDate, btnEditItem,
           dtObtained, imgItem, lblHeading, lblHeading1, lblHeading2, lblHeading3, lblHeading4,
-          lblHeading5, spCollections, textView, txtItemDescription, txtItemName);
+          lblHeading5, rlIAHeader, spCollections, textView, txtItemDescription, txtItemName);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

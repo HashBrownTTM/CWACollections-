@@ -7,10 +7,30 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
     <color name="cwa_grey">#868686</color>
     <color name="cwa_grey2">#5B5B5B</color>
     <color name="cwa_grey3">#C4C4C4</color>
+    <color name="cwa_grey4">#262626</color>
+    <color name="cwa_grey5">#16161D</color>
     <color name="cwa_blue1">#7CCFFF</color>
     <color name="cwa_blue2">#54ADE0</color>
-    <color name="transparent">#FFFFFF</color>
+    <color name="cwa_blue3">#2488c2</color>
+
+    <color name="cwa_picker_red">#990000</color>
+    <color name="cwa_picker_maroon">#800000</color>
+    <color name="cwa_picker_grey1">#868686</color>
+    <color name="cwa_picker_grey2">#5B5B5B</color>
+    <color name="cwa_picker_blue">#004080</color>
+    <color name="cwa_picker_green">#006600</color>
+    <color name="cwa_picker_green2">#33cc33</color>
+    <color name="cwa_picker_yellow">#e6e600</color>
+    <color name="cwa_picker_peach">#ffc34d</color>
+    <color name="cwa_picker_turquoise">#158479</color>
+    <color name="cwa_picker_orange">#ffa500</color>
+    <color name="cwa_picker_purple">#660066</color>
+    <color name="cwa_picker_purple2">#ac3973</color>
+    <color name="cwa_picker_brown">#804000</color>
+
+
 </resources>

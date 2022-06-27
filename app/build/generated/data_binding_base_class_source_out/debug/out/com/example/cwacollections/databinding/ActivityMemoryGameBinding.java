@@ -12,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -83,43 +84,43 @@ public final class ActivityMemoryGameBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnBack;
-      ImageButton btnBack = rootView.findViewById(id);
+      ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
         break missingId;
       }
 
       id = R.id.btnConfirm;
-      Button btnConfirm = rootView.findViewById(id);
+      Button btnConfirm = ViewBindings.findChildViewById(rootView, id);
       if (btnConfirm == null) {
         break missingId;
       }
 
       id = R.id.btnPlay;
-      Button btnPlay = rootView.findViewById(id);
+      Button btnPlay = ViewBindings.findChildViewById(rootView, id);
       if (btnPlay == null) {
         break missingId;
       }
 
       id = R.id.lblLevel;
-      TextView lblLevel = rootView.findViewById(id);
+      TextView lblLevel = ViewBindings.findChildViewById(rootView, id);
       if (lblLevel == null) {
         break missingId;
       }
 
       id = R.id.lblNumber;
-      TextView lblNumber = rootView.findViewById(id);
+      TextView lblNumber = ViewBindings.findChildViewById(rootView, id);
       if (lblNumber == null) {
         break missingId;
       }
 
       id = R.id.textView;
-      TextView textView = rootView.findViewById(id);
+      TextView textView = ViewBindings.findChildViewById(rootView, id);
       if (textView == null) {
         break missingId;
       }
 
       id = R.id.txtNumber;
-      EditText txtNumber = rootView.findViewById(id);
+      EditText txtNumber = ViewBindings.findChildViewById(rootView, id);
       if (txtNumber == null) {
         break missingId;
       }

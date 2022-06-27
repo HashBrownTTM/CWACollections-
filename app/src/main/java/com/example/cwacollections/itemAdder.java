@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.DatePickerDialog;
 import android.app.Dialog;
@@ -30,7 +31,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.cwacollections.adapters.AdapterItem;
-import com.example.cwacollections.databinding.ActivityItemAdderBinding;
 import com.example.cwacollections.models.ModelItem;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -56,9 +56,8 @@ import java.util.HashMap;
 public class itemAdder extends AppCompatActivity  implements View.OnClickListener{
     Calendar calendar;
     TextView dtObtained, spCollections;
-    ImageButton btnBack;
+    ImageButton btnBack, btnDate, btnAddItem;
     EditText txtItemName, txtItemDescription;
-    Button btnAddItem;
 
     String date = "";
     int year, month, day;
@@ -110,6 +109,7 @@ public class itemAdder extends AppCompatActivity  implements View.OnClickListene
         btnBack = findViewById(R.id.btnBack);
         spCollections = findViewById(R.id.spCollections);
         btnAddItem = findViewById(R.id.btnAddItem);
+        btnDate = findViewById(R.id.btnDate);
         txtItemName = findViewById(R.id.txtItemName);
         txtItemDescription = findViewById(R.id.txtItemDescription);
 
@@ -124,12 +124,14 @@ public class itemAdder extends AppCompatActivity  implements View.OnClickListene
         btnBack.setOnClickListener(this);
         spCollections.setOnClickListener(this);
         btnAddItem.setOnClickListener(this);
+        btnDate.setOnClickListener(this);
 
         //setup progress dialog
         progressDialog = new ProgressDialog(this);
         progressDialog.setTitle("Please wait");
         progressDialog.setCanceledOnTouchOutside(false);
     }
+
     private void checkUser() {
         //get current user
         FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
@@ -177,11 +179,6 @@ public class itemAdder extends AppCompatActivity  implements View.OnClickListene
 
             }
         });
-    }
-
-    @SuppressWarnings("deprecation")
-    public void setDate(View view) {
-        showDialog(999);
     }
 
     @Override
@@ -380,6 +377,8 @@ public class itemAdder extends AppCompatActivity  implements View.OnClickListene
                 .addValueEventListener(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
+                        itemArrayList.clear();
+
                         for(DataSnapshot ds: snapshot.getChildren()){
                             //get data
                             ModelItem model = ds.getValue(ModelItem.class);
@@ -390,6 +389,7 @@ public class itemAdder extends AppCompatActivity  implements View.OnClickListene
                         adapterItem = new AdapterItem(itemAdder.this, itemArrayList);
                         //get item count from adapter
                         itemCount = adapterItem.getItemCount();
+
                     }
                     @Override
                     public void onCancelled(@NonNull DatabaseError error) {
@@ -399,6 +399,7 @@ public class itemAdder extends AppCompatActivity  implements View.OnClickListene
     }
 
     //onClick method for this activity
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View v){
         Intent intent;
@@ -437,10 +438,16 @@ public class itemAdder extends AppCompatActivity  implements View.OnClickListene
                             .show();
                 }
                 break;
+
             case R.id.btnBack:
                 //goes to the previous activity
                 finish();
                 break;
+
+            case R.id.btnDate:
+                showDialog(999);
+                break;
+
             case R.id.spCollections:
                 //first we need to get collections from firebase
                 Log.d(TAG, "collectionPickDialog: showing collections pick dialog");

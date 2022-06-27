@@ -55,9 +55,8 @@ import java.util.HashMap;
 public class itemEditor extends AppCompatActivity implements View.OnClickListener{
     Calendar calendar;
     TextView dtObtained, spCollections;
-    ImageButton btnBack;
+    ImageButton btnBack, btnDate, btnEditItem;
     EditText txtItemName, txtItemDescription;
-    Button btnEditItem;
 
     ImageView itemImage;
     private static final int REQUEST_IMAGE_CAPTURE = 0;
@@ -101,6 +100,7 @@ public class itemEditor extends AppCompatActivity implements View.OnClickListene
         btnBack = findViewById(R.id.btnBack);
         spCollections = findViewById(R.id.spCollections);
         btnEditItem = findViewById(R.id.btnEditItem);
+        btnDate = findViewById(R.id.btnDate);
         txtItemName = findViewById(R.id.txtItemName);
         txtItemDescription = findViewById(R.id.txtItemDescription);
 
@@ -108,6 +108,7 @@ public class itemEditor extends AppCompatActivity implements View.OnClickListene
         btnBack.setOnClickListener(this);
         spCollections.setOnClickListener(this);
         btnEditItem.setOnClickListener(this);
+        btnDate.setOnClickListener(this);
 
         //item id from intent started from AdapterItem
         itemId = getIntent().getStringExtra("itemId");
@@ -141,11 +142,6 @@ public class itemEditor extends AppCompatActivity implements View.OnClickListene
             String uid = firebaseUser.getUid();
             loadCollections(uid);
         }
-    }
-
-    @SuppressWarnings("deprecation")
-    public void setDate(View view) {
-        showDialog(999);
     }
 
     @Override
@@ -347,8 +343,10 @@ public class itemEditor extends AppCompatActivity implements View.OnClickListene
                         progressDialog.dismiss();
                         Toast.makeText(itemEditor.this, "Item info updated", Toast.LENGTH_SHORT).show();
 
-                        Intent intent = new Intent(itemEditor.this, home.class);
+                        Intent intent = new Intent(itemEditor.this, ItemDescription.class);
+                        intent.putExtra("itemId", itemId);
                         startActivity(intent);
+                        finish();
                     }
                 })
                 .addOnFailureListener(new OnFailureListener() {
@@ -405,8 +403,10 @@ public class itemEditor extends AppCompatActivity implements View.OnClickListene
                                         progressDialog.dismiss();
                                         Toast.makeText(itemEditor.this, "Item info updated", Toast.LENGTH_SHORT).show();
 
-                                        Intent intent = new Intent(itemEditor.this, home.class);
+                                        Intent intent = new Intent(itemEditor.this, ItemDescription.class);
+                                        intent.putExtra("itemId", itemId);
                                         startActivity(intent);
+                                        finish();
                                     }
                                 })
                                 .addOnFailureListener(new OnFailureListener() {
@@ -521,13 +521,20 @@ public class itemEditor extends AppCompatActivity implements View.OnClickListene
                             .show();
                 }
                 break;
+
             case R.id.btnBack:
                 //goes to the previous activity
                 finish();
                 break;
+
+            case R.id.btnDate:
+                showDialog(999);
+                break;
+
             case R.id.spCollections:
                 collectionDialog();
                 break;
+
             case R.id.btnEditItem:
                 builder.setTitle("Edit item")
                         .setMessage("Edit this item's data?")

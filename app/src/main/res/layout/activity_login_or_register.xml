@@ -5,6 +5,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/cwa_grey2"
     tools:context=".LoginOrRegister">
+
+    <TextView
+        android:id="@+id/lblHeading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Welcome to\nCWA Collections"
+        android:textAlignment="center"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/lblHeading2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnCreateAccount"
+        android:layout_below="@id/lblHeading1"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Easily manage\nyour collections"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnLogin"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/button_style"
+        app:backgroundTint="@color/cwa_blue2"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Create Account"
+        android:textAllCaps="false"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="50dp"
+        android:background="@drawable/button_style"
+        app:backgroundTint="@color/cwa_blue2"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="@color/black"/>
 
 </RelativeLayout>

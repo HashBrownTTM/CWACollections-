@@ -9,6 +9,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.widget.Toolbar;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -19,11 +20,11 @@ public final class ToolbarBinding implements ViewBinding {
   private final Toolbar rootView;
 
   @NonNull
-  public final TextView lblHeading;
+  public final TextView lblHomeHeading;
 
-  private ToolbarBinding(@NonNull Toolbar rootView, @NonNull TextView lblHeading) {
+  private ToolbarBinding(@NonNull Toolbar rootView, @NonNull TextView lblHomeHeading) {
     this.rootView = rootView;
-    this.lblHeading = lblHeading;
+    this.lblHomeHeading = lblHomeHeading;
   }
 
   @Override
@@ -53,13 +54,13 @@ public final class ToolbarBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.lblHeading;
-      TextView lblHeading = rootView.findViewById(id);
-      if (lblHeading == null) {
+      id = R.id.lblHomeHeading;
+      TextView lblHomeHeading = ViewBindings.findChildViewById(rootView, id);
+      if (lblHomeHeading == null) {
         break missingId;
       }
 
-      return new ToolbarBinding((Toolbar) rootView, lblHeading);
+      return new ToolbarBinding((Toolbar) rootView, lblHomeHeading);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

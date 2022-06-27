@@ -4,15 +4,19 @@ package com.example.cwacollections.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
+import com.discord.panels.OverlappingPanelsLayout;
 import com.example.cwacollections.R;
+import com.google.android.material.appbar.AppBarLayout;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -20,46 +24,118 @@ import java.lang.String;
 
 public final class ActivityHomeBinding implements ViewBinding {
   @NonNull
-  private final DrawerLayout rootView;
+  private final OverlappingPanelsLayout rootView;
 
   @NonNull
-  public final DrawerLayout drawerLayout;
+  public final AppBarLayout appBarLayout;
 
   @NonNull
-  public final ImageView imageView2;
+  public final FloatingActionButton btnAddCollection;
 
   @NonNull
-  public final LinearLayout llNoCollection;
+  public final FloatingActionButton btnGoToTop;
+
+  @NonNull
+  public final FrameLayout centerPanel;
+
+  @NonNull
+  public final FrameLayout endPanel;
+
+  @NonNull
+  public final TextView lblAboutUs;
+
+  @NonNull
+  public final TextView lblCollectionNum;
+
+  @NonNull
+  public final TextView lblDeleteAll;
+
+  @NonNull
+  public final TextView lblGeneralSettings;
+
+  @NonNull
+  public final TextView lblHome;
+
+  @NonNull
+  public final TextView lblProfile;
+
+  @NonNull
+  public final TextView lblSettingsHeader;
+
+  @NonNull
+  public final TextView llNoCollection;
 
   @NonNull
   public final NavigationView navView;
 
   @NonNull
+  public final NestedScrollView nestedScrollView;
+
+  @NonNull
+  public final OverlappingPanelsLayout overlappingPanels;
+
+  @NonNull
   public final RecyclerView rvCollections;
+
+  @NonNull
+  public final FrameLayout startPanel;
 
   @NonNull
   public final ToolbarBinding toolbar;
 
   @NonNull
-  public final EditText txtSearch;
+  public final RelativeLayout toolbarHeading;
 
-  private ActivityHomeBinding(@NonNull DrawerLayout rootView, @NonNull DrawerLayout drawerLayout,
-      @NonNull ImageView imageView2, @NonNull LinearLayout llNoCollection,
-      @NonNull NavigationView navView, @NonNull RecyclerView rvCollections,
-      @NonNull ToolbarBinding toolbar, @NonNull EditText txtSearch) {
+  @NonNull
+  public final View view1;
+
+  @NonNull
+  public final View view2;
+
+  @NonNull
+  public final View view3;
+
+  private ActivityHomeBinding(@NonNull OverlappingPanelsLayout rootView,
+      @NonNull AppBarLayout appBarLayout, @NonNull FloatingActionButton btnAddCollection,
+      @NonNull FloatingActionButton btnGoToTop, @NonNull FrameLayout centerPanel,
+      @NonNull FrameLayout endPanel, @NonNull TextView lblAboutUs,
+      @NonNull TextView lblCollectionNum, @NonNull TextView lblDeleteAll,
+      @NonNull TextView lblGeneralSettings, @NonNull TextView lblHome, @NonNull TextView lblProfile,
+      @NonNull TextView lblSettingsHeader, @NonNull TextView llNoCollection,
+      @NonNull NavigationView navView, @NonNull NestedScrollView nestedScrollView,
+      @NonNull OverlappingPanelsLayout overlappingPanels, @NonNull RecyclerView rvCollections,
+      @NonNull FrameLayout startPanel, @NonNull ToolbarBinding toolbar,
+      @NonNull RelativeLayout toolbarHeading, @NonNull View view1, @NonNull View view2,
+      @NonNull View view3) {
     this.rootView = rootView;
-    this.drawerLayout = drawerLayout;
-    this.imageView2 = imageView2;
+    this.appBarLayout = appBarLayout;
+    this.btnAddCollection = btnAddCollection;
+    this.btnGoToTop = btnGoToTop;
+    this.centerPanel = centerPanel;
+    this.endPanel = endPanel;
+    this.lblAboutUs = lblAboutUs;
+    this.lblCollectionNum = lblCollectionNum;
+    this.lblDeleteAll = lblDeleteAll;
+    this.lblGeneralSettings = lblGeneralSettings;
+    this.lblHome = lblHome;
+    this.lblProfile = lblProfile;
+    this.lblSettingsHeader = lblSettingsHeader;
     this.llNoCollection = llNoCollection;
     this.navView = navView;
+    this.nestedScrollView = nestedScrollView;
+    this.overlappingPanels = overlappingPanels;
     this.rvCollections = rvCollections;
+    this.startPanel = startPanel;
     this.toolbar = toolbar;
-    this.txtSearch = txtSearch;
+    this.toolbarHeading = toolbarHeading;
+    this.view1 = view1;
+    this.view2 = view2;
+    this.view3 = view3;
   }
 
   @Override
   @NonNull
-  public DrawerLayout getRoot() {
+  public OverlappingPanelsLayout getRoot() {
     return rootView;
   }
 
@@ -84,47 +160,146 @@ public final class ActivityHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      DrawerLayout drawerLayout = (DrawerLayout) rootView;
+      id = R.id.appBarLayout;
+      AppBarLayout appBarLayout = ViewBindings.findChildViewById(rootView, id);
+      if (appBarLayout == null) {
+        break missingId;
+      }
 
-      id = R.id.imageView2;
-      ImageView imageView2 = rootView.findViewById(id);
-      if (imageView2 == null) {
+      id = R.id.btnAddCollection;
+      FloatingActionButton btnAddCollection = ViewBindings.findChildViewById(rootView, id);
+      if (btnAddCollection == null) {
+        break missingId;
+      }
+
+      id = R.id.btnGoToTop;
+      FloatingActionButton btnGoToTop = ViewBindings.findChildViewById(rootView, id);
+      if (btnGoToTop == null) {
+        break missingId;
+      }
+
+      id = R.id.center_panel;
+      FrameLayout centerPanel = ViewBindings.findChildViewById(rootView, id);
+      if (centerPanel == null) {
+        break missingId;
+      }
+
+      id = R.id.end_panel;
+      FrameLayout endPanel = ViewBindings.findChildViewById(rootView, id);
+      if (endPanel == null) {
+        break missingId;
+      }
+
+      id = R.id.lblAboutUs;
+      TextView lblAboutUs = ViewBindings.findChildViewById(rootView, id);
+      if (lblAboutUs == null) {
+        break missingId;
+      }
+
+      id = R.id.lblCollectionNum;
+      TextView lblCollectionNum = ViewBindings.findChildViewById(rootView, id);
+      if (lblCollectionNum == null) {
+        break missingId;
+      }
+
+      id = R.id.lblDeleteAll;
+      TextView lblDeleteAll = ViewBindings.findChildViewById(rootView, id);
+      if (lblDeleteAll == null) {
+        break missingId;
+      }
+
+      id = R.id.lblGeneralSettings;
+      TextView lblGeneralSettings = ViewBindings.findChildViewById(rootView, id);
+      if (lblGeneralSettings == null) {
+        break missingId;
+      }
+
+      id = R.id.lblHome;
+      TextView lblHome = ViewBindings.findChildViewById(rootView, id);
+      if (lblHome == null) {
+        break missingId;
+      }
+
+      id = R.id.lblProfile;
+      TextView lblProfile = ViewBindings.findChildViewById(rootView, id);
+      if (lblProfile == null) {
+        break missingId;
+      }
+
+      id = R.id.lblSettingsHeader;
+      TextView lblSettingsHeader = ViewBindings.findChildViewById(rootView, id);
+      if (lblSettingsHeader == null) {
         break missingId;
       }
 
       id = R.id.llNoCollection;
-      LinearLayout llNoCollection = rootView.findViewById(id);
+      TextView llNoCollection = ViewBindings.findChildViewById(rootView, id);
       if (llNoCollection == null) {
         break missingId;
       }
 
       id = R.id.nav_view;
-      NavigationView navView = rootView.findViewById(id);
+      NavigationView navView = ViewBindings.findChildViewById(rootView, id);
       if (navView == null) {
         break missingId;
       }
 
+      id = R.id.nestedScrollView;
+      NestedScrollView nestedScrollView = ViewBindings.findChildViewById(rootView, id);
+      if (nestedScrollView == null) {
+        break missingId;
+      }
+
+      OverlappingPanelsLayout overlappingPanels = (OverlappingPanelsLayout) rootView;
+
       id = R.id.rvCollections;
-      RecyclerView rvCollections = rootView.findViewById(id);
+      RecyclerView rvCollections = ViewBindings.findChildViewById(rootView, id);
       if (rvCollections == null) {
         break missingId;
       }
 
+      id = R.id.start_panel;
+      FrameLayout startPanel = ViewBindings.findChildViewById(rootView, id);
+      if (startPanel == null) {
+        break missingId;
+      }
+
       id = R.id.toolbar;
-      View toolbar = rootView.findViewById(id);
+      View toolbar = ViewBindings.findChildViewById(rootView, id);
       if (toolbar == null) {
         break missingId;
       }
       ToolbarBinding binding_toolbar = ToolbarBinding.bind(toolbar);
 
-      id = R.id.txtSearch;
-      EditText txtSearch = rootView.findViewById(id);
-      if (txtSearch == null) {
+      id = R.id.toolbarHeading;
+      RelativeLayout toolbarHeading = ViewBindings.findChildViewById(rootView, id);
+      if (toolbarHeading == null) {
         break missingId;
       }
 
-      return new ActivityHomeBinding((DrawerLayout) rootView, drawerLayout, imageView2,
-          llNoCollection, navView, rvCollections, binding_toolbar, txtSearch);
+      id = R.id.view1;
+      View view1 = ViewBindings.findChildViewById(rootView, id);
+      if (view1 == null) {
+        break missingId;
+      }
+
+      id = R.id.view2;
+      View view2 = ViewBindings.findChildViewById(rootView, id);
+      if (view2 == null) {
+        break missingId;
+      }
+
+      id = R.id.view3;
+      View view3 = ViewBindings.findChildViewById(rootView, id);
+      if (view3 == null) {
+        break missingId;
+      }
+
+      return new ActivityHomeBinding((OverlappingPanelsLayout) rootView, appBarLayout,
+          btnAddCollection, btnGoToTop, centerPanel, endPanel, lblAboutUs, lblCollectionNum,
+          lblDeleteAll, lblGeneralSettings, lblHome, lblProfile, lblSettingsHeader, llNoCollection,
+          navView, nestedScrollView, overlappingPanels, rvCollections, startPanel, binding_toolbar,
+          toolbarHeading, view1, view2, view3);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

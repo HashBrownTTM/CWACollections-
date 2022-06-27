@@ -4,14 +4,13 @@ package com.example.cwacollections.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.cwacollections.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
@@ -22,10 +21,7 @@ public final class RowItemBinding implements ViewBinding {
   private final CardView rootView;
 
   @NonNull
-  public final ImageButton btnMore;
-
-  @NonNull
-  public final TextView lblCollection;
+  public final CardView cvItems;
 
   @NonNull
   public final TextView lblDate;
@@ -39,20 +35,15 @@ public final class RowItemBinding implements ViewBinding {
   @NonNull
   public final ImageView picView;
 
-  @NonNull
-  public final ConstraintLayout rvImage;
-
-  private RowItemBinding(@NonNull CardView rootView, @NonNull ImageButton btnMore,
-      @NonNull TextView lblCollection, @NonNull TextView lblDate, @NonNull TextView lblDescription,
-      @NonNull TextView lblTitle, @NonNull ImageView picView, @NonNull ConstraintLayout rvImage) {
+  private RowItemBinding(@NonNull CardView rootView, @NonNull CardView cvItems,
+      @NonNull TextView lblDate, @NonNull TextView lblDescription, @NonNull TextView lblTitle,
+      @NonNull ImageView picView) {
     this.rootView = rootView;
-    this.btnMore = btnMore;
-    this.lblCollection = lblCollection;
+    this.cvItems = cvItems;
     this.lblDate = lblDate;
     this.lblDescription = lblDescription;
     this.lblTitle = lblTitle;
     this.picView = picView;
-    this.rvImage = rvImage;
   }
 
   @Override
@@ -82,50 +73,34 @@ public final class RowItemBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.btnMore;
-      ImageButton btnMore = rootView.findViewById(id);
-      if (btnMore == null) {
-        break missingId;
-      }
-
-      id = R.id.lblCollection;
-      TextView lblCollection = rootView.findViewById(id);
-      if (lblCollection == null) {
-        break missingId;
-      }
+      CardView cvItems = (CardView) rootView;
 
       id = R.id.lblDate;
-      TextView lblDate = rootView.findViewById(id);
+      TextView lblDate = ViewBindings.findChildViewById(rootView, id);
       if (lblDate == null) {
         break missingId;
       }
 
       id = R.id.lblDescription;
-      TextView lblDescription = rootView.findViewById(id);
+      TextView lblDescription = ViewBindings.findChildViewById(rootView, id);
       if (lblDescription == null) {
         break missingId;
       }
 
       id = R.id.lblTitle;
-      TextView lblTitle = rootView.findViewById(id);
+      TextView lblTitle = ViewBindings.findChildViewById(rootView, id);
       if (lblTitle == null) {
         break missingId;
       }
 
       id = R.id.picView;
-      ImageView picView = rootView.findViewById(id);
+      ImageView picView = ViewBindings.findChildViewById(rootView, id);
       if (picView == null) {
         break missingId;
       }
 
-      id = R.id.rvImage;
-      ConstraintLayout rvImage = rootView.findViewById(id);
-      if (rvImage == null) {
-        break missingId;
-      }
-
-      return new RowItemBinding((CardView) rootView, btnMore, lblCollection, lblDate,
-          lblDescription, lblTitle, picView, rvImage);
+      return new RowItemBinding((CardView) rootView, cvItems, lblDate, lblDescription, lblTitle,
+          picView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

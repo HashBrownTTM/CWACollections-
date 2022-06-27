@@ -1,3 +1,28 @@
+com/example/cwacollections/filters/FilterItems.java
+ com.example.cwacollections.filters.FilterItems
+com/example/cwacollections/BuildConfig.java
+ com.example.cwacollections.BuildConfig
+com/example/cwacollections/MyApp.java
+ com.example.cwacollections.MyApp
+com/example/cwacollections/filters/FilterCollections.java
+ com.example.cwacollections.filters.FilterCollections
+com/example/cwacollections/Constants.java
+ com.example.cwacollections.Constants
+com/example/cwacollections/adapters/AdapterCollection.java
+ com.example.cwacollections.adapters.AdapterCollection
+ com.example.cwacollections.adapters.AdapterCollection$1
+ com.example.cwacollections.adapters.AdapterCollection$2
+ com.example.cwacollections.adapters.AdapterCollection$2$1
+ com.example.cwacollections.adapters.AdapterCollection$2$2
+ com.example.cwacollections.adapters.AdapterCollection$3
+ com.example.cwacollections.adapters.AdapterCollection$4
+ com.example.cwacollections.adapters.AdapterCollection$HolderCollection
+com/example/cwacollections/collection.java
+ com.example.cwacollections.collection
+com/example/cwacollections/models/ModelItem.java
+ com.example.cwacollections.models.ModelItem
+com/example/cwacollections/models/ModelCollection.java
+ com.example.cwacollections.models.ModelCollection
 com/example/cwacollections/databinding/ActivityMemoryGameBinding.java
  com.example.cwacollections.databinding.ActivityMemoryGameBinding
 com/example/cwacollections/collectionAdder.java
@@ -16,16 +41,12 @@ com/example/cwacollections/registration.java
  com.example.cwacollections.registration$2$2
  com.example.cwacollections.registration$3
  com.example.cwacollections.registration$4
-com/example/cwacollections/Constants.java
- com.example.cwacollections.Constants
 com/example/cwacollections/Login.java
  com.example.cwacollections.Login
 com/example/cwacollections/databinding/ActionBinding.java
  com.example.cwacollections.databinding.ActionBinding
 com/example/cwacollections/databinding/ActivityUserInfoBinding.java
  com.example.cwacollections.databinding.ActivityUserInfoBinding
-com/example/cwacollections/filters/FilterItems.java
- com.example.cwacollections.filters.FilterItems
 com/example/cwacollections/userInfo.java
  com.example.cwacollections.userInfo
  com.example.cwacollections.userInfo$1
@@ -41,6 +62,8 @@ com/example/cwacollections/collectionItems.java
  com.example.cwacollections.collectionItems$2$1
 com/example/cwacollections/databinding/ToolbarBinding.java
  com.example.cwacollections.databinding.ToolbarBinding
+com/example/cwacollections/databinding/ActivityItemDescriptionBinding.java
+ com.example.cwacollections.databinding.ActivityItemDescriptionBinding
 com/example/cwacollections/databinding/NavigationHeaderBinding.java
  com.example.cwacollections.databinding.NavigationHeaderBinding
 com/example/cwacollections/manageCollections.java
@@ -49,32 +72,16 @@ com/example/cwacollections/memoryGame.java
  com.example.cwacollections.memoryGame
  com.example.cwacollections.memoryGame$1
  com.example.cwacollections.memoryGame$2
-com/example/cwacollections/databinding/RowCollectionBinding.java
- com.example.cwacollections.databinding.RowCollectionBinding
 com/example/cwacollections/databinding/ActivityCollectionAdderBinding.java
  com.example.cwacollections.databinding.ActivityCollectionAdderBinding
+com/example/cwacollections/databinding/RowCollectionBinding.java
+ com.example.cwacollections.databinding.RowCollectionBinding
 com/example/cwacollections/databinding/RowItemBinding.java
  com.example.cwacollections.databinding.RowItemBinding
 com/example/cwacollections/databinding/ActivityLoginOrRegisterBinding.java
  com.example.cwacollections.databinding.ActivityLoginOrRegisterBinding
-com/example/cwacollections/itemEditor.java
- com.example.cwacollections.itemEditor
- com.example.cwacollections.itemEditor$1
- com.example.cwacollections.itemEditor$10
- com.example.cwacollections.itemEditor$11
- com.example.cwacollections.itemEditor$2
- com.example.cwacollections.itemEditor$2$1
- com.example.cwacollections.itemEditor$3
- com.example.cwacollections.itemEditor$4
- com.example.cwacollections.itemEditor$5
- com.example.cwacollections.itemEditor$6
- com.example.cwacollections.itemEditor$7
- com.example.cwacollections.itemEditor$8
- com.example.cwacollections.itemEditor$8$1
- com.example.cwacollections.itemEditor$8$2
- com.example.cwacollections.itemEditor$9
-com/example/cwacollections/BuildConfig.java
- com.example.cwacollections.BuildConfig
+com/example/cwacollections/databinding/ActivityCollectionEditorBinding.java
+ com.example.cwacollections.databinding.ActivityCollectionEditorBinding
 com/example/cwacollections/databinding/ActivityCollectionItemsBinding.java
  com.example.cwacollections.databinding.ActivityCollectionItemsBinding
 com/example/cwacollections/databinding/ActivityForgotPasswordBinding.java
@@ -94,25 +101,16 @@ com/example/cwacollections/itemAdder.java
  com.example.cwacollections.itemAdder$9
 com/example/cwacollections/databinding/ActivityLoginBinding.java
  com.example.cwacollections.databinding.ActivityLoginBinding
+com/example/cwacollections/ItemDescription.java
+ com.example.cwacollections.ItemDescription
 com/example/cwacollections/databinding/ActivityItemEditorBinding.java
  com.example.cwacollections.databinding.ActivityItemEditorBinding
-com/example/cwacollections/home.java
- com.example.cwacollections.home
- com.example.cwacollections.home$1
- com.example.cwacollections.home$2
+com/example/cwacollections/LoginOrRegister.java
+ com.example.cwacollections.LoginOrRegister
 com/example/cwacollections/databinding/ActivityMainBinding.java
  com.example.cwacollections.databinding.ActivityMainBinding
-com/example/cwacollections/filters/FilterCollections.java
- com.example.cwacollections.filters.FilterCollections
-com/example/cwacollections/MainActivity.java
- com.example.cwacollections.MainActivity
- com.example.cwacollections.MainActivity$1
- com.example.cwacollections.MainActivity$2
- com.example.cwacollections.MainActivity$3
- com.example.cwacollections.MainActivity$3$1
- com.example.cwacollections.MainActivity$4
-com/example/cwacollections/models/ModelCollection.java
- com.example.cwacollections.models.ModelCollection
+com/example/cwacollections/databinding/ActivityHomeBinding.java
+ com.example.cwacollections.databinding.ActivityHomeBinding
 com/example/cwacollections/forgotPassword.java
  com.example.cwacollections.forgotPassword
  com.example.cwacollections.forgotPassword$1
@@ -124,33 +122,18 @@ com/example/cwacollections/adapters/AdapterItem.java
  com.example.cwacollections.adapters.AdapterItem
  com.example.cwacollections.adapters.AdapterItem$1
  com.example.cwacollections.adapters.AdapterItem$2
- com.example.cwacollections.adapters.AdapterItem$2$1
- com.example.cwacollections.adapters.AdapterItem$2$2
  com.example.cwacollections.adapters.AdapterItem$3
+ com.example.cwacollections.adapters.AdapterItem$3$1
+ com.example.cwacollections.adapters.AdapterItem$3$2
  com.example.cwacollections.adapters.AdapterItem$4
- com.example.cwacollections.adapters.AdapterItem$4$1
- com.example.cwacollections.adapters.AdapterItem$4$2
  com.example.cwacollections.adapters.AdapterItem$5
+ com.example.cwacollections.adapters.AdapterItem$5$1
+ com.example.cwacollections.adapters.AdapterItem$5$2
  com.example.cwacollections.adapters.AdapterItem$HolderItem
-com/example/cwacollections/adapters/AdapterCollection.java
- com.example.cwacollections.adapters.AdapterCollection
- com.example.cwacollections.adapters.AdapterCollection$1
- com.example.cwacollections.adapters.AdapterCollection$2
- com.example.cwacollections.adapters.AdapterCollection$2$1
- com.example.cwacollections.adapters.AdapterCollection$2$2
- com.example.cwacollections.adapters.AdapterCollection$3
- com.example.cwacollections.adapters.AdapterCollection$4
- com.example.cwacollections.adapters.AdapterCollection$HolderCollection
-com/example/cwacollections/models/ModelItem.java
- com.example.cwacollections.models.ModelItem
-com/example/cwacollections/collection.java
- com.example.cwacollections.collection
-com/example/cwacollections/databinding/ActivityCollectionEditorBinding.java
- com.example.cwacollections.databinding.ActivityCollectionEditorBinding
-com/example/cwacollections/databinding/ActivityHomeBinding.java
- com.example.cwacollections.databinding.ActivityHomeBinding
-com/example/cwacollections/LoginOrRegister.java
- com.example.cwacollections.LoginOrRegister
+com/example/cwacollections/home.java
+ com.example.cwacollections.home
+ com.example.cwacollections.home$1
+ com.example.cwacollections.home$2
 com/example/cwacollections/collectionEditor.java
  com.example.cwacollections.collectionEditor
  com.example.cwacollections.collectionEditor$1
@@ -158,5 +141,26 @@ com/example/cwacollections/collectionEditor.java
  com.example.cwacollections.collectionEditor$3
  com.example.cwacollections.collectionEditor$4
  com.example.cwacollections.collectionEditor$5
-com/example/cwacollections/MyApp.java
- com.example.cwacollections.MyApp
+com/example/cwacollections/itemEditor.java
+ com.example.cwacollections.itemEditor
+ com.example.cwacollections.itemEditor$1
+ com.example.cwacollections.itemEditor$10
+ com.example.cwacollections.itemEditor$11
+ com.example.cwacollections.itemEditor$2
+ com.example.cwacollections.itemEditor$2$1
+ com.example.cwacollections.itemEditor$3
+ com.example.cwacollections.itemEditor$4
+ com.example.cwacollections.itemEditor$5
+ com.example.cwacollections.itemEditor$6
+ com.example.cwacollections.itemEditor$7
+ com.example.cwacollections.itemEditor$8
+ com.example.cwacollections.itemEditor$8$1
+ com.example.cwacollections.itemEditor$8$2
+ com.example.cwacollections.itemEditor$9
+com/example/cwacollections/MainActivity.java
+ com.example.cwacollections.MainActivity
+ com.example.cwacollections.MainActivity$1
+ com.example.cwacollections.MainActivity$2
+ com.example.cwacollections.MainActivity$3
+ com.example.cwacollections.MainActivity$3$1
+ com.example.cwacollections.MainActivity$4
